@@ -1,4 +1,5 @@
-# MCLI repository - repository of Minecraft plugins, for usage with MCLI command line tool
+# MCLI repository
+Repository of Minecraft plugins, for usage with MCLI command line tool
 
 ## License (SPDX)
 
