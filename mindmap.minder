@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<minder version="1.14.0" parent-etag="1861466019" etag="2615667744">
+<minder version="1.14.0" parent-etag="2763924677" etag="1715012796">
   <theme name="default" label="Light" index="0"/>
   <styles>
     <style level="0" isset="false" branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="10" nodepadding="10" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
@@ -120,30 +120,30 @@
             </node>
           </nodes>
         </node>
-        <node id="7" posx="1066.44140625" posy="469.16796875" width="92" height="49" side="right" fold="false" treesize="147" color="#68b723" colorroot="false" layout="Horizontal" group="false">
+        <node id="7" posx="1066.44140625" posy="469.16796875" width="71" height="49" side="right" fold="false" treesize="147" color="#68b723" colorroot="false" layout="Horizontal" group="false">
           <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
           <nodename posx="1080.44140625" posy="483.16796875" maxwidth="200">
-            <text data="forumUrl"/>
+            <text data="forum"/>
           </nodename>
           <nodenote></nodenote>
           <nodes>
-            <node id="8" posx="1258.44140625" posy="420.16796875" width="99" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" layout="Horizontal" group="false">
+            <node id="8" posx="1237.44140625" posy="420.16796875" width="99" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" layout="Horizontal" group="false">
               <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename posx="1272.44140625" posy="434.16796875" maxwidth="200">
+              <nodename posx="1251.44140625" posy="434.16796875" maxwidth="200">
                 <text data="bukkit.org"/>
               </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="11" posx="1258.44140625" posy="469.16796875" width="120" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" layout="Horizontal" group="false">
+            <node id="11" posx="1237.44140625" posy="469.16796875" width="120" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" layout="Horizontal" group="false">
               <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename posx="1272.44140625" posy="483.16796875" maxwidth="200">
+              <nodename posx="1251.44140625" posy="483.16796875" maxwidth="200">
                 <text data="spigotmc.org"/>
               </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="12" posx="1258.44140625" posy="518.16796875" width="106" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" layout="Horizontal" group="false">
+            <node id="12" posx="1237.44140625" posy="518.16796875" width="106" height="49" side="right" fold="false" treesize="49" color="#68b723" colorroot="false" layout="Horizontal" group="false">
               <style branchmargin="100" branchradius="25" linktype="straight" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename posx="1272.44140625" posy="532.16796875" maxwidth="200">
+              <nodename posx="1251.44140625" posy="532.16796875" maxwidth="200">
                 <text data="papermc.io"/>
               </nodename>
               <nodenote></nodenote>
