@@ -12,12 +12,16 @@ soup = BeautifulSoup(driver.page_source, 'html.parser')
 items = soup.select("form ol.resourceList li.resourceListItem")
 itemsObject = []
 for i in items:
-    itemsObject.append([i.select("h3.title > a")[0].get("href"), i.select("h3.title > a")[0].getText(), list(map(lambda x:x.lower(), re.findall(r'[a-zA-Z]+', i.select("h3.title > a")[0].getText())))])
-    print(itemsObject)
+  itemsObject.append([
+    i.select("h3.title > a")[0].get("href"),
+    i.select("h3.title > a")[0].getText(),
+    '-'.join(list(map(lambda x:x.lower(), re.findall(r'[a-zA-Z]+', i.select("h3.title > a")[0].getText()))))
+  ])
+  print(itemsObject)
 
 for i, x in enumerate(itemsObject):
-    page = driver.get("https://spigotmc.org/" + x[0])
-    # items = soup.select("")
+  page = driver.get("https://spigotmc.org/" + x[0])
+  soupedPage = BeautifulSoup(driver.page_source, 'html.parser')
+  itemsObject[i].append(soupedPage)
 
-time.sleep(6)
-
+print(itemsObject)
