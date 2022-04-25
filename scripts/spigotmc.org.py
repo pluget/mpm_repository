@@ -53,7 +53,7 @@ for i in range(1, 3254):
     print("    \"name\": \"" + i[2] + "\",")
     print("    \"license\": \"\",")
     print("    \"gitUrl\": \"" + i[6] + "\",")
-    print("    \"supportedApis\": [\"spigot\", \"paper\", \"glowkit\"]")
+    print("    \"supportedApis\": [\"spigot\", \"paper\", \"glowkit\"],")
     print("    \"mcVersions\": " + str(i[5]) + ",")
     print("    \"description\": \"" + i[7] + "\"")
     print("""    \"releasesPage\": {
