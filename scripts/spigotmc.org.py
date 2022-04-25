@@ -31,17 +31,22 @@ for i in range(1, 3254):
   for i, x in enumerate(itemsObject):
     driver.get("https://spigotmc.org/" + x[0])
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    container = soup.select(".mainContent")[0]
-    mcVersions = list(map(lambda x:x.text, container.select(".customResourceFieldmc_versions ul.plainList > li")))
-    gitUrl = ""
     try:
-      gitUrl = soup.select(".customResourceFieldsource_code dd > a")[0].get("href")
-    except:
+      container = soup.select(".mainContent")[0]
+      mcVersions = list(map(lambda x:x.text, container.select(".customResourceFieldmc_versions ul.plainList > li")))
       gitUrl = ""
-    description = container.select(".tagLine")[0].getText()
-    itemsObject[i].append(mcVersions)
-    itemsObject[i].append(gitUrl)
-    itemsObject[i].append(description)
+      try:
+        gitUrl = soup.select(".customResourceFieldsource_code dd > a")[0].get("href")
+      except:
+        gitUrl = ""
+      description = container.select(".tagLine")[0].getText()
+      itemsObject[i].append(mcVersions)
+      itemsObject[i].append(gitUrl)
+      itemsObject[i].append(description)
+    except:
+      itemsObject[i].append([""])
+      itemsObject[i].append("")
+      itemsObject[i].append("")
 
   for i in itemsObject:
     print("  \"" + i[3] + "\":  {")
