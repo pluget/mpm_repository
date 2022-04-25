@@ -6,9 +6,9 @@ import undetected_chromedriver as uc
 
 driver = uc.Chrome()
 
-print("[")
+print("{")
 for i in range(1, 3254):
-  logging.error(i)
+  logging.error("Page: " + str(i))
   driver.get('https://spigotmc.org/resources/categories/spigot.4/?order=download_count&page=' + str(i))
   time.sleep(6.5)
   soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -44,7 +44,7 @@ for i in range(1, 3254):
     itemsObject[i].append(description)
 
   for i in itemsObject:
-    print("  {")
+    print("  \"" + i[3] + "\":  {")
     print("    \"name\": \"" + i[2] + "\",")
     print("    \"license\": \"\",")
     print("    \"gitUrl\": \"" + i[6] + "\",")
@@ -67,7 +67,6 @@ for i in range(1, 3254):
           \"pageUrl\": \"\",
         },
       },""")
-    print("    \"slug\": \"" + i[3] + "\",")
     print("  }" + ("," if i != itemsObject[-1] else ""))
 
-print("]")
+print("}")
