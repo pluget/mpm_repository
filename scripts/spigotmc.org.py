@@ -7,10 +7,12 @@ import undetected_chromedriver as uc
 driver = uc.Chrome()
 
 print("{")
-for i in range(1, 3254):
+for i in range(1, 3255):
   logging.error("Page: " + str(i))
   driver.get('https://spigotmc.org/resources/categories/spigot.4/?order=download_count&page=' + str(i))
-  time.sleep(6.5)
+  if (i%30 == 1):
+    time.sleep(9)
+
   soup = BeautifulSoup(driver.page_source, 'html.parser')
 
   items = soup.select("form ol.resourceList li.resourceListItem")
