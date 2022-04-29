@@ -1023,7 +1023,7 @@
       }
     }
   },
-  "lifesteal-smp-plugin": {
+  "lifesteal": {
     "name": "LifeSteal SMP Plugin",
     "license": "",
     "archived": false,
@@ -1281,14 +1281,18 @@
     "description": "Auto Destroy, Auto Replant and more!",
     "releasesPage": [
       {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/tree-assist/files"
+      },
+      {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/treeassist.67436/history/"
       }
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/tree-assist",
+        "downloads": 1032140
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/treeassist.67436/",
@@ -4661,7 +4665,7 @@
       }
     }
   },
-  "healthbar": {
+  "healthbar-justthiemo": {
     "name": "HealthBar",
     "license": "",
     "archived": false,
@@ -6689,14 +6693,18 @@
     "description": "Mobs can become Infernal boss mobs and drop cool loot!",
     "releasesPage": [
       {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/infernal-mobs/files"
+      },
+      {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/infernal-mobs.2156/history/"
       }
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/infernal-mobs",
+        "downloads": 99954
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/infernal-mobs.2156/",
@@ -6977,11 +6985,15 @@
   },
   "ultimateeconomy": {
     "name": "Ultimate_Economy",
-    "license": "",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
     "gitUrl": "",
     "description": "All what you need for economy on your server. Money/Shops/Jobs/Towns",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/ultimate_economy/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/ultimate_economy.59235/history/"
@@ -6989,8 +7001,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/ultimate_economy",
+        "downloads": 53599
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/ultimate_economy.59235/",
@@ -7031,7 +7043,7 @@
       }
     }
   },
-  "animated-menu": {
+  "animatedmenu": {
     "name": "Animated Menu",
     "license": "",
     "archived": false,
@@ -7083,7 +7095,7 @@
       }
     }
   },
-  "skript-java-addon-skellett": {
+  "skellett": {
     "name": "[Skript Java Addon] Skellett",
     "license": "",
     "archived": false,
@@ -7109,13 +7121,17 @@
       }
     }
   },
-  "armor-stand-editor-dead": {
+  "armorstandeditor": {
     "name": "Armor Stand Editor [dead]",
-    "license": "",
-    "archived": false,
+    "license": "GNU General Public License version 2 (GPLv2)",
+    "archived": true,
     "gitUrl": "https://github.com/RypoFalem/ArmorStandEditor",
     "description": "Allows players in survival to easily edit armor stand pose and attributes without commands.",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/armor-stand-edit/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/armor-stand-editor-dead.7688/history/"
@@ -7123,8 +7139,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/armor-stand-edit",
+        "downloads": 90620
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/armor-stand-editor-dead.7688/",
@@ -7187,7 +7203,7 @@
       }
     }
   },
-  "moneyhunters-earn-money-for-simple-jobs": {
+  "moneyhunters": {
     "name": "MoneyHunters - Earn money for simple jobs!",
     "license": "",
     "archived": false,
@@ -7239,13 +7255,17 @@
       }
     }
   },
-  "iconomy-reloaded": {
+  "iconomyreloaded": {
     "name": "iConomy-Reloaded",
-    "license": "",
+    "license": "GNU General Public License version 2 (GPLv2)",
     "archived": false,
     "gitUrl": "",
     "description": "iConomy Reloaded bukkit Plugin in Latest Version!",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/iconomy-reloadede/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/iconomy-reloaded.11170/history/"
@@ -7253,8 +7273,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/iconomy-reloadede",
+        "downloads": 68722
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/iconomy-reloaded.11170/",
@@ -7265,7 +7285,7 @@
       }
     }
   },
-  "residence-reloaded-x": {
+  "residencereloaded": {
     "name": "Residence Reloaded 1.8.x",
     "license": "",
     "archived": false,
@@ -7291,7 +7311,7 @@
       }
     }
   },
-  "anti-bot-attack": {
+  "antibotattack": {
     "name": "Anti Bot Attack",
     "license": "",
     "archived": false,
@@ -7319,11 +7339,15 @@
   },
   "traincarts": {
     "name": "TrainCarts",
-    "license": "",
+    "license": "MIT License",
     "archived": false,
     "gitUrl": "https://github.com/bergerhealer/TrainCarts",
     "description": "Minecarts redefined",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/traincarts/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/traincarts.39592/history/"
@@ -7331,8 +7355,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/traincarts",
+        "downloads": 194268
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/traincarts.39592/",
@@ -7369,7 +7393,7 @@
       }
     }
   },
-  "category-warps": {
+  "categorywarps": {
     "name": "Category Warps",
     "license": "",
     "archived": false,
@@ -7395,7 +7419,7 @@
       }
     }
   },
-  "admin": {
+  "adminplus": {
     "name": "Admin+",
     "license": "",
     "archived": false,
@@ -7447,7 +7471,7 @@
       }
     }
   },
-  "worldeditsui-visualize-your-selection": {
+  "worldeditsui": {
     "name": "WorldEditSUI | Visualize your selection!",
     "license": "",
     "archived": false,
@@ -7551,7 +7575,7 @@
       }
     }
   },
-  "anvil-login": {
+  "anvillogin-portlek": {
     "name": "Anvil Login",
     "license": "",
     "archived": false,
@@ -7577,7 +7601,7 @@
       }
     }
   },
-  "itemedit-x-x": {
+  "itemedit": {
     "name": "ItemEdit [1.8.x-1.18.x]",
     "license": "",
     "archived": false,
@@ -7655,7 +7679,7 @@
       }
     }
   },
-  "minesecure-lite-antihacksystem-aimbot-bowaimbot-bungeecord-support": {
+  "minesecurelite": {
     "name": "MineSecure Lite - AntiHackSystem [Aimbot,BowAimbot ...] BungeeCord Support",
     "license": "",
     "archived": false,
@@ -7681,7 +7705,7 @@
       }
     }
   },
-  "f-top-factions-top-by-novucs": {
+  "factions-top": {
     "name": "/f top | Factions Top by Novucs",
     "license": "",
     "archived": false,
@@ -7759,7 +7783,7 @@
       }
     }
   },
-  "playerheads": {
+  "playerheads-troydesante": {
     "name": "PlayerHeads",
     "license": "",
     "archived": false,
@@ -7785,7 +7809,7 @@
       }
     }
   },
-  "tapl-s-chunk-miner-challenge-recreation-beta": {
+  "chunkminer": {
     "name": "TapL's Chunk Miner Challenge (RECREATION) BETA",
     "license": "",
     "archived": false,
@@ -7811,7 +7835,7 @@
       }
     }
   },
-  "libs-hungergames": {
+  "libshungergames": {
     "name": "Lib's Hungergames",
     "license": "",
     "archived": false,
@@ -7839,11 +7863,15 @@
   },
   "commandnpc": {
     "name": "CommandNPC",
-    "license": "",
+    "license": "All Rights Reserved",
     "archived": false,
     "gitUrl": "https://github.com/messageofdeath/CommandNPC",
     "description": "Add Commands to your Citizens 2 NPC! 1.12 Ready (When Citizens comes out)",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/cmdnpc/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/commandnpc.40295/history/"
@@ -7851,8 +7879,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/cmdnpc",
+        "downloads": 590999
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/commandnpc.40295/",
@@ -7889,7 +7917,7 @@
       }
     }
   },
-  "ls-exploitfixer-the-ultimate-antiexploit-plugin": {
+  "exploitfixer": {
     "name": "[2LS] ExploitFixer - The Ultimate AntiExploit plugin",
     "license": "",
     "archived": false,
@@ -7915,7 +7943,7 @@
       }
     }
   },
-  "skywars-reloaded": {
+  "skywars-gta5racer": {
     "name": "SKYWARS | Reloaded 1.11.2",
     "license": "",
     "archived": false,
@@ -7941,7 +7969,7 @@
       }
     }
   },
-  "customcommands-recoded-new-tab-completion-in-game-configs-edition": {
+  "customcommands": {
     "name": "CustomCommands - RECODED! - NEW: Tab-completion, in-game configs edition!",
     "license": "",
     "archived": false,
@@ -7993,7 +8021,7 @@
       }
     }
   },
-  "permissionsex-tab-completer-includes-permissionsex": {
+  "permissionsex-tab-completer": {
     "name": "PermissionsEx Tab Completer | [1.7 - 1.17] | Includes PermissionsEx",
     "license": "",
     "archived": false,
@@ -8019,7 +8047,7 @@
       }
     }
   },
-  "tntrun-multiple-modes-leaderheads-support-mysql-much-more": {
+  "tntrun-thetadesk": {
     "name": "TNTRun | Multiple Modes | LeaderHeads support | MySQL | Much more...",
     "license": "",
     "archived": false,
@@ -8045,7 +8073,7 @@
       }
     }
   },
-  "simplescore-animated-scoreboard": {
+  "simplescore": {
     "name": "SimpleScore | Animated Scoreboard",
     "license": "",
     "archived": false,
@@ -8123,7 +8151,7 @@
       }
     }
   },
-  "player-warps-let-your-players-set-warps": {
+  "playerwarps": {
     "name": "⭐ Player Warps ⭐ ➢ Let your players set warps! [1.7-1.18]",
     "license": "",
     "archived": false,
@@ -8201,7 +8229,7 @@
       }
     }
   },
-  "block-particles": {
+  "blockparticles": {
     "name": "Block Particles",
     "license": "",
     "archived": false,
@@ -8227,7 +8255,7 @@
       }
     }
   },
-  "towny-advanced": {
+  "townyadvanced": {
     "name": "Towny Advanced",
     "license": "",
     "archived": false,
@@ -8279,7 +8307,7 @@
       }
     }
   },
-  "easykitpvp-kitpvp-plugin": {
+  "easykitpvp": {
     "name": "EasyKitpvp [KITPVP PLUGIN]",
     "license": "",
     "archived": false,
@@ -8305,7 +8333,7 @@
       }
     }
   },
-  "tapl-s-enchantment-every-step-challenge-recreation": {
+  "enchantmentwalk": {
     "name": "TapL's Enchantment Every Step Challenge (RECREATION)",
     "license": "",
     "archived": false,
@@ -8331,7 +8359,7 @@
       }
     }
   },
-  "armored-elytra": {
+  "armoredelytra": {
     "name": "Armored Elytra",
     "license": "",
     "archived": false,
@@ -8357,7 +8385,7 @@
       }
     }
   },
-  "quickboard-free-scoreboard-plugin-scroller-changeable-text-placeholderapi-anti-flicker": {
+  "quickboard": {
     "name": "QuickBoard - Free Scoreboard Plugin | Scroller | Changeable text | PlaceholderAPI | Anti-Flicker",
     "license": "",
     "archived": false,
@@ -8383,7 +8411,7 @@
       }
     }
   },
-  "trouble-in-terrorist-town-ttt-spigot-multiarena-bungeecord": {
+  "mttt": {
     "name": "Trouble in Terrorist Town [TTT] <<< Spigot 1.8+ | Multiarena & Bungeecord",
     "license": "",
     "archived": false,
@@ -8461,7 +8489,7 @@
       }
     }
   },
-  "locked-items": {
+  "lockeditems": {
     "name": "Locked Items",
     "license": "",
     "archived": false,
@@ -8487,7 +8515,7 @@
       }
     }
   },
-  "custom-enderchest": {
+  "customenderchest": {
     "name": "Custom EnderChest",
     "license": "",
     "archived": false,
@@ -8513,7 +8541,7 @@
       }
     }
   },
-  "skywarsreloaded": {
+  "skywars-gcnt": {
     "name": "SkywarsReloaded UPDATED | Recoded | 1.18 Support! | New features! | 1.8x - 1.18x",
     "license": "",
     "archived": false,
@@ -8565,7 +8593,7 @@
       }
     }
   },
-  "wilderness-tp": {
+  "wildernesstp": {
     "name": "Wilderness-Tp",
     "license": "",
     "archived": false,
@@ -8695,7 +8723,7 @@
       }
     }
   },
-  "marriage-reloaded": {
+  "marriagereloaded": {
     "name": "Marriage (Reloaded) [1.15-1.8]",
     "license": "",
     "archived": false,
@@ -8703,14 +8731,18 @@
     "description": "Get married, she said. It'll be fun, she said.",
     "releasesPage": [
       {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/marriage-reloaded/files"
+      },
+      {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/marriage-reloaded-1-15-1-8.18998/history/"
       }
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/marriage-reloaded",
+        "downloads": 113321
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/marriage-reloaded-1-15-1-8.18998/",
@@ -8721,7 +8753,7 @@
       }
     }
   },
-  "security-camera-plugin-cctv": {
+  "securitycamera": {
     "name": "Security Camera Plugin - CCTV [1.12.2 -> 1.18.2]",
     "license": "",
     "archived": false,
@@ -8749,11 +8781,15 @@
   },
   "infoboardreborn": {
     "name": "InfoBoardReborn",
-    "license": "",
+    "license": "All Rights Reserved",
     "archived": false,
     "gitUrl": "https://github.com/Ktar5/Info-Board",
     "description": "Show an infoboard (scoreboard)",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/ib-reborn/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/infoboardreborn.44270/history/"
@@ -8761,8 +8797,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/ib-reborn",
+        "downloads": 174405
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/infoboardreborn.44270/",
@@ -8781,14 +8817,18 @@
     "description": "Play .nbs files as noteblock sounds",
     "releasesPage": [
       {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/noteblockapi/files"
+      },
+      {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/noteblockapi.19287/history/"
       }
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/noteblockapi",
+        "downloads": 91557
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/noteblockapi.19287/",
@@ -8799,7 +8839,7 @@
       }
     }
   },
-  "myitems-x-x": {
+  "myitems": {
     "name": "MyItems [1.8.x - 1.10.x]",
     "license": "",
     "archived": false,
@@ -8851,11 +8891,11 @@
       }
     }
   },
-  "big-doors": {
+  "bigdoors": {
     "name": "Big Doors",
     "license": "",
     "archived": false,
-    "gitUrl": "https://github.com/PimvanderLoos/BigDoors/tree/v1",
+    "gitUrl": "https://github.com/PimvanderLoos/BigDoors",
     "description": "Big, ANIMATED doors, drawbridges, portcullises, and more!",
     "releasesPage": [
       {
@@ -8877,7 +8917,7 @@
       }
     }
   },
-  "uhccore-automated-uhc-for-minecraft": {
+  "uhccore": {
     "name": "UhcCore | Automated UHC for minecraft [1.8.8 - 1.16]",
     "license": "",
     "archived": false,
@@ -8903,7 +8943,7 @@
       }
     }
   },
-  "prefix-custom-tag-manager": {
+  "prefix": {
     "name": "PrefiX - Custom Tag Manager [1.8-1.18.2]",
     "license": "",
     "archived": false,
@@ -8957,11 +8997,15 @@
   },
   "minigames": {
     "name": "Minigames",
-    "license": "",
+    "license": "All Rights Reserved",
     "archived": false,
     "gitUrl": "https://github.com/AddstarMC/Minigames/",
     "description": "The original Minigames plugin, allowing server owners to create simple or advanced minigames!",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/minigames/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/minigames.19687/history/"
@@ -8969,8 +9013,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/minigames",
+        "downloads": 247264
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/minigames.19687/",
@@ -9007,13 +9051,17 @@
       }
     }
   },
-  "multiverse-inventories-for": {
+  "multiverse-inventories": {
     "name": "Multiverse-Inventories for 1.9 & 1.10 & 1.11 & 1.12",
-    "license": "",
+    "license": "BSD License",
     "archived": false,
-    "gitUrl": "",
+    "gitUrl": "https://github.com/multiverse/Multiverse-Inventories",
     "description": "Multiverse-Inventories optimized for 1.9+",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/multiverse-inventories/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/multiverse-inventories-for-1-9-1-10-1-11-1-12.21681/history/"
@@ -9021,8 +9069,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/multiverse-inventories",
+        "downloads": 790393
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/multiverse-inventories-for-1-9-1-10-1-11-1-12.21681/",
@@ -9059,7 +9107,7 @@
       }
     }
   },
-  "jukebox-music-plugin": {
+  "jukebox": {
     "name": "JukeBox - Music Plugin",
     "license": "",
     "archived": false,
@@ -9089,7 +9137,7 @@
     "name": "⚡DreamCompass [1.13 - 1.16]⚡",
     "license": "",
     "archived": false,
-    "gitUrl": "https://github.com/prosteDeniGC/Dreamcompass/tree/master",
+    "gitUrl": "https://github.com/prosteDeniGC/Dreamcompass",
     "description": "Gives you compass always pointing to specified player",
     "releasesPage": [
       {
@@ -9111,7 +9159,7 @@
       }
     }
   },
-  "peek-a-boo": {
+  "peekaboo": {
     "name": "Peek-a-boo",
     "license": "",
     "archived": false,
@@ -9137,7 +9185,7 @@
       }
     }
   },
-  "bangui": {
+  "banguipp": {
     "name": "BanGUI++ [1.7.10-1.12]",
     "license": "",
     "archived": false,
@@ -9167,7 +9215,7 @@
     "name": "Heads",
     "license": "",
     "archived": false,
-    "gitUrl": "",
+    "gitUrl": "https://github.com/insou22/heads",
     "description": "Give yourself over 2000 unique in game heads",
     "releasesPage": [
       {
@@ -9189,7 +9237,7 @@
       }
     }
   },
-  "petblocks-mysql-bungeecord-customizeable-gui": {
+  "petblocks": {
     "name": "PetBlocks [MySQL|BungeeCord|Customizeable GUI|1.8-1.18]",
     "license": "",
     "archived": false,
@@ -9297,7 +9345,7 @@
       }
     }
   },
-  "trade-system-custom-layouts": {
+  "tradesystem": {
     "name": "Trade System | Custom layouts!",
     "license": "",
     "archived": false,
@@ -9323,7 +9371,7 @@
       }
     }
   },
-  "easyprefix-gui-custom-prefixes-sql-support": {
+  "easyprefix": {
     "name": "EasyPrefix | GUI, Custom Prefixes, SQL support",
     "license": "",
     "archived": false,
@@ -9349,7 +9397,7 @@
       }
     }
   },
-  "command-panels-custom-guis": {
+  "commandpanels": {
     "name": "Command Panels | Custom GUIs",
     "license": "",
     "archived": false,
@@ -9427,13 +9475,17 @@
       }
     }
   },
-  "marriage-master-mc": {
+  "marriagemaster": {
     "name": "Marriage Master (MC 1.7-1.18)",
-    "license": "",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
     "gitUrl": "https://github.com/GeorgH93/MarriageMaster",
     "description": "Marriage Master is a highly customizable marriage plugin.",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/marriage-master/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-18.19273/history/"
@@ -9441,8 +9493,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/marriage-master",
+        "downloads": 3713444
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-18.19273/",
@@ -9453,7 +9505,7 @@
       }
     }
   },
-  "life-steal-smp-plugin": {
+  "lifesteal-sirhenryvii": {
     "name": "Life Steal SMP Plugin",
     "license": "",
     "archived": false,
@@ -9479,7 +9531,7 @@
       }
     }
   },
-  "simple-health-bar-supports": {
+  "simplehealthbar": {
     "name": "❤ Simple Health Bar ❤ [Supports 1.9]",
     "license": "",
     "archived": false,
@@ -9531,7 +9583,7 @@
       }
     }
   },
-  "choptree": {
+  "choptree2": {
     "name": "ChopTree2",
     "license": "",
     "archived": false,
@@ -9539,14 +9591,18 @@
     "description": "Tree felling is easy when they pop like cacti",
     "releasesPage": [
       {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/choptree2/files"
+      },
+      {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/choptree2.67585/history/"
       }
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/choptree2",
+        "downloads": 172133
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/choptree2.67585/",
@@ -9609,7 +9665,7 @@
       }
     }
   },
-  "adminsystem-admin-java": {
+  "adminsystem": {
     "name": "⚙️ AdminSystem ❤ | /admin | [Java] | ⚙️",
     "license": "",
     "archived": false,
@@ -9635,7 +9691,7 @@
       }
     }
   },
-  "chat-format-placeholderapi-support": {
+  "chatformat": {
     "name": "Chat Format | PlaceholderAPI Support!",
     "license": "",
     "archived": false,
@@ -9661,7 +9717,7 @@
       }
     }
   },
-  "vivecraft-spigot-extensions": {
+  "vivecraft": {
     "name": "Vivecraft Spigot Extensions",
     "license": "",
     "archived": false,
@@ -9739,7 +9795,7 @@
       }
     }
   },
-  "cosmic-vaults-supports": {
+  "cosmicvaults": {
     "name": "Cosmic Vaults | Supports 1.8+",
     "license": "",
     "archived": false,
@@ -9791,7 +9847,7 @@
       }
     }
   },
-  "orebfuscator-anti-x-ray": {
+  "orebfuscator": {
     "name": "Orebfuscator (Anti X-Ray)",
     "license": "",
     "archived": false,
@@ -9817,7 +9873,7 @@
       }
     }
   },
-  "rand-command": {
+  "randcommand": {
     "name": "/rand Command",
     "license": "",
     "archived": false,
@@ -9871,11 +9927,15 @@
   },
   "skillapi": {
     "name": "SkillAPI",
-    "license": "",
+    "license": "MIT License",
     "archived": false,
-    "gitUrl": "",
+    "gitUrl": "https://github.com/Eniripsa96/SkillAPI/issues",
     "description": "Flexible class and skill system with mass configuration and unique menus and features!",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/skillapi/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/skillapi.4824/history/"
@@ -9883,8 +9943,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/skillapi",
+        "downloads": 116515
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/skillapi.4824/",
@@ -9895,7 +9955,7 @@
       }
     }
   },
-  "dupe-fixes-illegal-stack-remover": {
+  "illegalstack": {
     "name": "Dupe Fixes / Illegal Stack Remover",
     "license": "",
     "archived": false,
@@ -9921,7 +9981,7 @@
       }
     }
   },
-  "pex-rankup": {
+  "pexrankup": {
     "name": "PEX-Rankup",
     "license": "",
     "archived": false,
@@ -9947,7 +10007,7 @@
       }
     }
   },
-  "ultimateskins-skin-plugin-change-your-skin-random-skin-easy-configuration": {
+  "ultimateskins": {
     "name": "UltimateSkins | Skin Plugin - Change your skin! Random Skin & Easy Configuration",
     "license": "",
     "archived": false,
@@ -9973,7 +10033,7 @@
       }
     }
   },
-  "economy-bank": {
+  "economybank": {
     "name": "Economy Bank",
     "license": "",
     "archived": false,
@@ -9999,7 +10059,7 @@
       }
     }
   },
-  "random-item-drop-plugin": {
+  "randomitemdrop": {
     "name": "Random Item Drop Plugin | 1.8.8 - 1.14.4",
     "license": "",
     "archived": false,
@@ -10027,11 +10087,15 @@
   },
   "dtltraders": {
     "name": "dtlTraders",
-    "license": "",
+    "license": "All Rights Reserved",
     "archived": false,
     "gitUrl": "",
     "description": "A better way to trade! For Citizens(2).",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/dtltraders/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/dtltraders.35890/history/"
@@ -10039,8 +10103,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/dtltraders",
+        "downloads": 239260
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/dtltraders.35890/",
@@ -10157,11 +10221,15 @@
   },
   "mobhunting": {
     "name": "MobHunting",
-    "license": "",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
     "gitUrl": "https://github.com/Rocologo/MobHunting",
     "description": "Earn Money and get Skulls by killing Mobs and Players",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/mobhunting/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/mobhunting.3582/history/"
@@ -10169,8 +10237,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/mobhunting",
+        "downloads": 103311
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/mobhunting.3582/",
@@ -10181,7 +10249,7 @@
       }
     }
   },
-  "permissionsplus-plugin-security-permissions-management": {
+  "permissionsplus": {
     "name": "PermissionsPlus plugin - Security Permissions management",
     "license": "",
     "archived": false,
@@ -10285,7 +10353,7 @@
       }
     }
   },
-  "wolfyutilities-core-plugin-api": {
+  "wolfyutilities": {
     "name": "WolfyUtilities | Core plugin API [1.16 - 1.18.2]",
     "license": "",
     "archived": false,
@@ -10363,7 +10431,7 @@
       }
     }
   },
-  "pvp-arena": {
+  "pvparena": {
     "name": "PVP Arena",
     "license": "",
     "archived": false,
@@ -10389,10 +10457,10 @@
       }
     }
   },
-  "savagefactions-the-ultimate-factions-experience-abandoned": {
+  "savagefactions": {
     "name": "SavageFactions // The Ultimate Factions Experience // Abandoned.",
     "license": "",
-    "archived": false,
+    "archived": true,
     "gitUrl": "https://github.com/ProSavage/SavageFactions",
     "description": "A new era of Competitive Factions.",
     "releasesPage": [
@@ -10415,7 +10483,7 @@
       }
     }
   },
-  "skins-x-x-x-x": {
+  "skins": {
     "name": "Skins | 1.12.x, 1.13.2, 1.14.x, 1.15.x, 1.16.x",
     "license": "",
     "archived": false,
@@ -10441,10 +10509,10 @@
       }
     }
   },
-  "rifle-s-chairs-abandoned": {
+  "rifleschairs": {
     "name": "Rifle's Chairs [Abandoned]",
     "license": "",
-    "archived": false,
+    "archived": true,
     "gitUrl": "https://github.com/RifleDLuffy/RFChairs",
     "description": "Chairs for Minecraft but Rifle's way. You can sit on carpets and slabs too.",
     "releasesPage": [
@@ -10467,7 +10535,7 @@
       }
     }
   },
-  "npc-skin": {
+  "npcskin": {
     "name": "Npc Skin",
     "license": "",
     "archived": false,
@@ -10571,7 +10639,7 @@
       }
     }
   },
-  "api-bossbarapi": {
+  "bossbarapi": {
     "name": "[API] BossBarAPI [1.7 | 1.8 | 1.9 | 1.10]",
     "license": "",
     "archived": false,
@@ -10651,11 +10719,15 @@
   },
   "kingkits": {
     "name": "KingKits",
-    "license": "",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
     "gitUrl": "https://github.com/KingFaris10/KingKits/",
     "description": "Use custom created kits to battle other players in PvP! Create/delete/rename kits in-game!",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/kingkits/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/kingkits.2209/history/"
@@ -10663,8 +10735,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/kingkits",
+        "downloads": 513519
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/kingkits.2209/",
@@ -10701,7 +10773,7 @@
       }
     }
   },
-  "more-ores": {
+  "moreores": {
     "name": "⛏️More Ores⛏️",
     "license": "",
     "archived": false,
@@ -10753,7 +10825,7 @@
       }
     }
   },
-  "murder-mystery": {
+  "murdermystery": {
     "name": "Murder Mystery [1.8.8-1.17]",
     "license": "",
     "archived": false,
@@ -10779,7 +10851,7 @@
       }
     }
   },
-  "simplecrates-easy-to-configure-spigot": {
+  "simplecrates": {
     "name": "SimpleCrates | Easy to Configure | Spigot 1.8-1.12",
     "license": "",
     "archived": false,
@@ -10805,13 +10877,17 @@
       }
     }
   },
-  "anti-world-fly": {
+  "antiworldfly": {
     "name": "Anti World Fly",
-    "license": "",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
     "gitUrl": "https://github.com/PyvesB/AntiWorldFly",
     "description": "Manage flying, elytras, and related commands on a per world basis!",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/anti-world-fly/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/anti-world-fly.5357/history/"
@@ -10819,8 +10895,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/anti-world-fly",
+        "downloads": 70772
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/anti-world-fly.5357/",
@@ -10859,11 +10935,15 @@
   },
   "playervaults": {
     "name": "PlayerVaults",
-    "license": "",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "",
+    "gitUrl": "https://github.com/drtshock/playervaults/issues",
     "description": "Player vaults for player players.",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/playervaults/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/playervaults.9228/history/"
@@ -10871,8 +10951,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/playervaults",
+        "downloads": 302467
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/playervaults.9228/",
@@ -10883,13 +10963,17 @@
       }
     }
   },
-  "pvpmanager-lite": {
+  "pvpmanager": {
     "name": "PvPManager Lite",
-    "license": "",
+    "license": "All Rights Reserved",
     "archived": false,
     "gitUrl": "https://github.com/ChanceSD/PvPManager",
     "description": "Stop Combat Log, Toggle PvP, No Kill Abuse, Newbie protection, Stop region border hopping",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/pvpmanager/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/pvpmanager-lite.845/history/"
@@ -10897,8 +10981,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/pvpmanager",
+        "downloads": 1440374
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/pvpmanager-lite.845/",
@@ -10935,7 +11019,7 @@
       }
     }
   },
-  "custom-jumppads": {
+  "customjumppads": {
     "name": "Custom Jumppads | [1.8 - 1.17]",
     "license": "",
     "archived": false,
@@ -10961,7 +11045,7 @@
       }
     }
   },
-  "advanced-armor-stands": {
+  "advancedarmorstands": {
     "name": "Advanced Armor Stands",
     "license": "",
     "archived": false,
@@ -10987,7 +11071,7 @@
       }
     }
   },
-  "chatty-lightweight-universal-bukkit-chat-system-solution": {
+  "chatty": {
     "name": "Chatty - Lightweight universal Bukkit chat-system solution [1.7.10 - 1.18+]",
     "license": "",
     "archived": false,
@@ -11091,7 +11175,7 @@
       }
     }
   },
-  "custom-enchantments": {
+  "customenchantments2": {
     "name": "✯Custom Enchantments 2 [1.16-1.18] ✯",
     "license": "",
     "archived": false,
@@ -11117,7 +11201,7 @@
       }
     }
   },
-  "guns-plugin-create-your-own-custom-guns-in-minecraft": {
+  "guns": {
     "name": "Guns Plugin - [Create Your Own Custom Guns In Minecraft!!]",
     "license": "",
     "archived": false,
@@ -11145,11 +11229,15 @@
   },
   "signcolors": {
     "name": "SignColors",
-    "license": "",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
     "gitUrl": "https://github.com/Pixelhash/SignColors",
     "description": "SignColors allows all players on the server or people with permissions to add colored text to signs.",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/signcolors/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/signcolors.6135/history/"
@@ -11157,8 +11245,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/signcolors",
+        "downloads": 53588
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/signcolors.6135/",
@@ -11221,7 +11309,7 @@
       }
     }
   },
-  "coordinates-hud": {
+  "coordinateshud": {
     "name": "Coordinates HUD",
     "license": "",
     "archived": false,
@@ -11273,7 +11361,7 @@
       }
     }
   },
-  "teleport-x-x-best-plugin-for-teleportation": {
+  "teleportplus": {
     "name": "Teleport+ [1.7.X - 1.13.X] | Best Plugin for Teleportation !",
     "license": "",
     "archived": false,
@@ -11301,11 +11389,15 @@
   },
   "adminfun": {
     "name": "AdminFun",
-    "license": "",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
     "gitUrl": "",
     "description": "The essential plugin for admin entertainment!",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/adminfun/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/adminfun.4621/history/"
@@ -11313,8 +11405,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/adminfun",
+        "downloads": 843016
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/adminfun.4621/",
@@ -11327,11 +11419,15 @@
   },
   "kitadder": {
     "name": "KitAdder",
-    "license": "",
+    "license": "All Rights Reserved",
     "archived": false,
     "gitUrl": "",
     "description": "The plugin which makes adding kits easier.",
     "releasesPage": [
+      {
+        "type": "bukkit",
+        "url": "https://dev.bukkit.org/projects/kitadder/files"
+      },
       {
         "type": "spigot",
         "url": "https://www.spigotmc.org/resources/kitadder.9231/history/"
@@ -11339,8 +11435,8 @@
     ],
     "forum": {
       "bukkit.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://dev.bukkit.org/projects/kitadder",
+        "downloads": 491983
       },
       "spigotmc.org": {
         "pageUrl": "https://www.spigotmc.org/resources/kitadder.9231/",
@@ -11351,7 +11447,7 @@
       }
     }
   },
-  "backpack-store-any-item-great-for-survival-servers": {
+  "backpack": {
     "name": "Backpack | Store any item | Great for survival servers",
     "license": "",
     "archived": false,
@@ -11403,7 +11499,7 @@
       }
     }
   },
-  "tablist": {
+  "tablist-anydev": {
     "name": "Tablist",
     "license": "",
     "archived": false,
@@ -11455,10 +11551,10 @@
       }
     }
   },
-  "daily-rewards": {
+  "dailyrewards": {
     "name": "Daily Rewards",
     "license": "",
-    "archived": false,
+    "archived": true,
     "gitUrl": "https://github.com/HalfloveJAR/Daily-Rewards",
     "description": "DISCONTINUED DEVELOPMENT - Check GitHub for source code.",
     "releasesPage": [
@@ -11481,7 +11577,7 @@
       }
     }
   },
-  "backpack": {
+  "backpack-lidle": {
     "name": "Backpack",
     "license": "",
     "archived": false,
@@ -11767,7 +11863,7 @@
       }
     }
   },
-  "mcmmo-horses": {
+  "mcmmohorses": {
     "name": "mcMMO Horses",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -11897,7 +11993,7 @@
       }
     }
   },
-  "lobbyapi-world": {
+  "lobbyapiworld": {
     "name": "LobbyAPI--World",
     "license": "Public Domain",
     "archived": false,
@@ -12183,7 +12279,7 @@
       }
     }
   },
-  "worldedit-for-bukkit": {
+  "worldedit": {
     "name": "WorldEdit for Bukkit",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -12547,7 +12643,7 @@
       }
     }
   },
-  "cs-corelib": {
+  "cscorelib": {
     "name": "CS-CoreLib",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -12573,11 +12669,11 @@
       }
     }
   },
-  "enjin-donationcraft-x": {
+  "enjin-donationcraft": {
     "name": "Enjin & DonationCraft 2.x",
     "license": "All Rights Reserved",
     "archived": false,
-    "gitUrl": "http://enjin.com/support",
+    "gitUrl": "",
     "description": "Official Enjin Minecraft Plugin - Fully syncs your website features (ranks + donation store + modules) and your server together.",
     "releasesPage": [
       {
@@ -12629,7 +12725,7 @@
     "name": "Citizens",
     "license": "Open Software License",
     "archived": false,
-    "gitUrl": "http://issues.citizensnpcs.co",
+    "gitUrl": "",
     "description": "NPCs for Bukkit",
     "releasesPage": [
       {
@@ -12667,32 +12763,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/partlyfancy",
         "downloads": 4453048
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "marriage-master": {
-    "name": "Marriage Master",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "https://github.com/GeorgH93/MarriageMaster",
-    "description": "Marriage Master",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/marriage-master/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/marriage-master",
-        "downloads": 3713444
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -12811,7 +12881,7 @@
     "name": " mcMMO.",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "git://github.com/mcMMO-Dev/mcMMO.git",
+    "gitUrl": "https://github.com/mcMMO-Dev/mcMMO",
     "description": "mcMMO",
     "releasesPage": [
       {
@@ -12937,7 +13007,7 @@
       }
     }
   },
-  "holographic-displays": {
+  "holographicdisplays": {
     "name": "Holographic Displays",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -13041,7 +13111,7 @@
       }
     }
   },
-  "orebfuscator": {
+  "orebfuscator-lishid": {
     "name": "Orebfuscator",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -13119,7 +13189,7 @@
       }
     }
   },
-  "the-bukkit-gui-project-bukkitgui": {
+  "bukkitgui": {
     "name": "The bukkit GUI project (BukkitGUI)",
     "license": "Mozilla Public License 2.0",
     "archived": false,
@@ -13171,7 +13241,7 @@
       }
     }
   },
-  "frame-protector": {
+  "frameprotector": {
     "name": "Frame Protector",
     "license": "All Rights Reserved",
     "archived": false,
@@ -13301,32 +13371,6 @@
       }
     }
   },
-  "pvpmanager": {
-    "name": "PvPManager",
-    "license": "All Rights Reserved",
-    "archived": false,
-    "gitUrl": "https://github.com/ChanceSD/PvPManager",
-    "description": "Stop Combat Log, Toggle PvP, No Kill Abuse, Newbie protection, Stop region border hopping",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/pvpmanager/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/pvpmanager",
-        "downloads": 1440374
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
   "foundboxx": {
     "name": "FoundBoxx",
     "license": "GNU General Public License version 3 (GPLv3)",
@@ -13353,11 +13397,11 @@
       }
     }
   },
-  "automessage": {
+  "automessage-elchileno": {
     "name": "AutoMessage",
     "license": "MIT License",
     "archived": false,
-    "gitUrl": "https://github.com/ELCHILEN0/AutoMessage/issues",
+    "gitUrl": "https://github.com/ELCHILEN0/AutoMessage",
     "description": "Schedule configurable server wide broadcasts easily",
     "releasesPage": [
       {
@@ -13379,7 +13423,7 @@
       }
     }
   },
-  "custom-nukes": {
+  "customnukes": {
     "name": "Custom Nukes",
     "license": "All Rights Reserved",
     "archived": false,
@@ -13431,7 +13475,7 @@
       }
     }
   },
-  "exotic-garden": {
+  "exoticgarden": {
     "name": "Exotic Garden",
     "license": "MIT License",
     "archived": false,
@@ -13535,7 +13579,7 @@
       }
     }
   },
-  "chest-commands": {
+  "chestcommands": {
     "name": "Chest Commands",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -13561,7 +13605,7 @@
       }
     }
   },
-  "tim-the-enchanter": {
+  "timtheenchanter": {
     "name": "Tim The Enchanter",
     "license": "Apache License version 2.0",
     "archived": false,
@@ -13643,7 +13687,7 @@
     "name": "QuickSell",
     "license": "Custom License",
     "archived": false,
-    "gitUrl": "http://thebusybiscuit.github.io/contact/",
+    "gitUrl": "",
     "description": "QuickSell",
     "releasesPage": [
       {
@@ -13665,7 +13709,7 @@
       }
     }
   },
-  "warp-portal-commands": {
+  "warpportal": {
     "name": "Warp Portal Commands",
     "license": "All Rights Reserved",
     "archived": false,
@@ -13743,7 +13787,7 @@
       }
     }
   },
-  "bow-spleef": {
+  "bowspleef": {
     "name": "Bow Spleef",
     "license": "Public Domain",
     "archived": false,
@@ -13785,32 +13829,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/backpack-item",
         "downloads": 1052316
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "tree-assist": {
-    "name": "Tree Assist",
-    "license": "All Rights Reserved",
-    "archived": false,
-    "gitUrl": "",
-    "description": "Auto Tree Replanting and Removal",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/tree-assist/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/tree-assist",
-        "downloads": 1032140
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -13925,10 +13943,10 @@
       }
     }
   },
-  "health-bar": {
+  "healthbar": {
     "name": "Health Bar",
     "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
+    "archived": true,
     "gitUrl": "",
     "description": "**Not Maintained** Display an RPG-style health bar above mobs and players.",
     "releasesPage": [
@@ -14003,7 +14021,7 @@
       }
     }
   },
-  "skin-statue-builder": {
+  "skinstatuebuilder": {
     "name": "Skin Statue Builder",
     "license": "All Rights Reserved",
     "archived": false,
@@ -14185,32 +14203,6 @@
       }
     }
   },
-  "adminfun": {
-    "name": "AdminFun",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "",
-    "description": "AdminFun is an essential plugin needed for servers to let your admins have fun!",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/adminfun/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/adminfun",
-        "downloads": 843016
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
   "laggremoverplus": {
     "name": "LaggRemoverPlus",
     "license": "All Rights Reserved",
@@ -14237,7 +14229,7 @@
       }
     }
   },
-  "player-heads": {
+  "playerheads": {
     "name": "Player Heads",
     "license": "Mozilla Public License 2.0",
     "archived": false,
@@ -14263,7 +14255,7 @@
       }
     }
   },
-  "coloredsigns-2": {
+  "coloredsigns2": {
     "name": "ColoredSigns 2.0 ",
     "license": "All Rights Reserved",
     "archived": false,
@@ -14315,7 +14307,7 @@
       }
     }
   },
-  "vanish-no-packet": {
+  "vanishnopacket": {
     "name": "Vanish No Packet",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -14393,32 +14385,6 @@
       }
     }
   },
-  "multiverse-inventories": {
-    "name": "Multiverse-Inventories",
-    "license": "BSD License",
-    "archived": false,
-    "gitUrl": "https://github.com/multiverse/Multiverse-Inventories",
-    "description": "Multiverse Inventories allows you to control who and what can cross world borders!",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/multiverse-inventories/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/multiverse-inventories",
-        "downloads": 790393
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
   "villageprotection": {
     "name": "VillageProtection",
     "license": "GNU General Public License version 3 (GPLv3)",
@@ -14471,10 +14437,10 @@
       }
     }
   },
-  "survival-games-no-longer-updated": {
+  "survivalgames": {
     "name": "Survival Games (No longer updated)",
     "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
+    "archived": true,
     "gitUrl": "",
     "description": "Survival Games (outdated)",
     "releasesPage": [
@@ -14523,10 +14489,10 @@
       }
     }
   },
-  "colored-tags": {
+  "coloredtags": {
     "name": "Colored Tags",
     "license": "All Rights Reserved",
-    "archived": false,
+    "archived": true,
     "gitUrl": "",
     "description": "**Not Maintained** Display colors and text on name tags above the head.",
     "releasesPage": [
@@ -14653,11 +14619,11 @@
       }
     }
   },
-  "battlearena-abandoned": {
+  "battlearena-old": {
     "name": "BattleArena (Abandoned)",
     "license": "A/NC",
-    "archived": false,
-    "gitUrl": "https://github.com/alkarinv/BattleArena/issues",
+    "archived": true,
+    "gitUrl": "https://github.com/alkarinv/BattleArena",
     "description": "Arena fights for solo players or teams. API for creating simple events",
     "releasesPage": [
       {
@@ -14783,7 +14749,7 @@
       }
     }
   },
-  "enchanted-customs": {
+  "enchantedcustoms": {
     "name": "Enchanted Customs",
     "license": "All Rights Reserved",
     "archived": false,
@@ -14903,32 +14869,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/slimefun-barrels",
         "downloads": 591744
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "commandnpc": {
-    "name": "CommandNPC",
-    "license": "All Rights Reserved",
-    "archived": false,
-    "gitUrl": "https://github.com/messageofdeath/CommandNPC",
-    "description": "Easily add commands to NPC's! [1.8-1.12] (BungeeCord Support | Citizens 2)",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/cmdnpc/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/cmdnpc",
-        "downloads": 590999
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -15069,7 +15009,7 @@
       }
     }
   },
-  "anti-x-ray": {
+  "antixray": {
     "name": "Anti X-Ray",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -15137,58 +15077,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/bossshop",
         "downloads": 520013
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "kingkits": {
-    "name": "KingKits",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "git@github.com:KingFaris10/KingKits.git",
-    "description": "Allow players to battle each other using custom made kits (with special abilities)",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/kingkits/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/kingkits",
-        "downloads": 513519
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "kitadder": {
-    "name": "KitAdder",
-    "license": "All Rights Reserved",
-    "archived": false,
-    "gitUrl": "",
-    "description": "KitAdder",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/kitadder/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/kitadder",
-        "downloads": 491983
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -15303,7 +15191,7 @@
       }
     }
   },
-  "pvp-vs": {
+  "pvp": {
     "name": "PvP 1vs1",
     "license": "All Rights Reserved",
     "archived": false,
@@ -15329,7 +15217,7 @@
       }
     }
   },
-  "custom-enchantments": {
+  "customenchantments": {
     "name": "Custom Enchantments",
     "license": "GNU Lesser General Public License version 3 (LGPLv3)",
     "archived": false,
@@ -15407,7 +15295,7 @@
       }
     }
   },
-  "nc-bukkitlib": {
+  "ncbukkitlib": {
     "name": "NC-BukkitLib",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -15485,10 +15373,10 @@
       }
     }
   },
-  "custom-join-items": {
+  "customjoinitems": {
     "name": "Custom Join Items",
     "license": "All Rights Reserved",
-    "archived": false,
+    "archived": true,
     "gitUrl": "",
     "description": "**ABANDONED**",
     "releasesPage": [
@@ -15537,7 +15425,7 @@
       }
     }
   },
-  "sensible-toolbox": {
+  "sensibletoolbox": {
     "name": "Sensible Toolbox",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -15615,7 +15503,7 @@
       }
     }
   },
-  "autorank": {
+  "autorank-armarr": {
     "name": "Autorank",
     "license": "AOL License",
     "archived": false,
@@ -15693,7 +15581,7 @@
       }
     }
   },
-  "custom-creatures": {
+  "customcreatures": {
     "name": "Custom Creatures",
     "license": "All Rights Reserved",
     "archived": false,
@@ -16005,7 +15893,7 @@
       }
     }
   },
-  "set-homes": {
+  "sethomes": {
     "name": "Set Homes",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -16083,7 +15971,7 @@
       }
     }
   },
-  "custom-damage": {
+  "customdamage": {
     "name": "Custom Damage",
     "license": "All Rights Reserved",
     "archived": false,
@@ -16187,32 +16075,6 @@
       }
     }
   },
-  "playervaults": {
-    "name": "PlayerVaults",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "https://github.com/drtshock/playervaults/issues",
-    "description": "A light weight virtual chest plugin!",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/playervaults/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/playervaults",
-        "downloads": 302467
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
   "globalgroupmanager": {
     "name": "GlobalGroupManager",
     "license": "Custom License",
@@ -16291,7 +16153,7 @@
       }
     }
   },
-  "stats-by-lolmewn": {
+  "stats": {
     "name": "Stats by Lolmewn",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -16317,11 +16179,11 @@
       }
     }
   },
-  "rpg-items": {
+  "rpgitems-thinkofname": {
     "name": "RPG Items",
     "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "",
+    "archived": true,
+    "gitUrl": "https://github.com/Thinkofname/RPG-Items",
     "description": "Allows you to create items with custom name, lore, damage and powers",
     "releasesPage": [
       {
@@ -16343,11 +16205,11 @@
       }
     }
   },
-  "ancient-gates": {
+  "ancientgates": {
     "name": "Ancient Gates",
     "license": "GNU General Public License version 2 (GPLv2)",
     "archived": false,
-    "gitUrl": "https://github.com/peewi96/AncientGates.git",
+    "gitUrl": "https://github.com/peewi96/AncientGates",
     "description": "Ancient Gates",
     "releasesPage": [
       {
@@ -16499,7 +16361,7 @@
       }
     }
   },
-  "paintball-war-edition": {
+  "paintballwaredition": {
     "name": "Paintball War Edition",
     "license": "Custom License",
     "archived": false,
@@ -16577,7 +16439,7 @@
       }
     }
   },
-  "guns": {
+  "gunsplus": {
     "name": "Guns+",
     "license": "All Rights Reserved",
     "archived": false,
@@ -16603,10 +16465,10 @@
       }
     }
   },
-  "admin-essentials": {
+  "adminessentials-wchrisj": {
     "name": "Admin Essentials",
     "license": "All Rights Reserved",
-    "archived": false,
+    "archived": true,
     "gitUrl": "",
     "description": "Admin Essentials",
     "releasesPage": [
@@ -16993,7 +16855,7 @@
       }
     }
   },
-  "advanced-lucky-block": {
+  "advancedluckyblock": {
     "name": "Advanced Lucky Block",
     "license": "All Rights Reserved",
     "archived": false,
@@ -17045,7 +16907,7 @@
       }
     }
   },
-  "administration-panel": {
+  "administrationpanel": {
     "name": "Administration Panel",
     "license": "All Rights Reserved",
     "archived": false,
@@ -17165,32 +17027,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/battlekits",
         "downloads": 247372
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "minigames": {
-    "name": "Minigames",
-    "license": "All Rights Reserved",
-    "archived": false,
-    "gitUrl": "https://github.com/AddstarMC/Minigames/issues",
-    "description": "Create your own Minigames to play",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/minigames/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/minigames",
-        "downloads": 247264
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -17331,7 +17167,7 @@
       }
     }
   },
-  "advanced-portals": {
+  "advancedportals": {
     "name": "Advanced Portals",
     "license": "GNU General Public License version 2 (GPLv2)",
     "archived": false,
@@ -17409,7 +17245,7 @@
       }
     }
   },
-  "island-world-skyblock-replacement": {
+  "islandworld": {
     "name": "Island World (SkyBlock replacement)",
     "license": "All Rights Reserved",
     "archived": false,
@@ -17477,32 +17313,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/quickmarket",
         "downloads": 239729
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "dtltraders": {
-    "name": "dtlTraders",
-    "license": "All Rights Reserved",
-    "archived": false,
-    "gitUrl": "",
-    "description": "A better way to trade! For Citizens(2).",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/dtltraders/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/dtltraders",
-        "downloads": 239260
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -17591,7 +17401,7 @@
       }
     }
   },
-  "be-herobrine": {
+  "beherobrine": {
     "name": "Be Herobrine",
     "license": "All Rights Reserved",
     "archived": false,
@@ -17617,7 +17427,7 @@
       }
     }
   },
-  "combat-tag": {
+  "combattag": {
     "name": "Combat Tag",
     "license": "Custom License",
     "archived": false,
@@ -17669,7 +17479,7 @@
       }
     }
   },
-  "chest-randomizer": {
+  "chestrandomizer": {
     "name": "Chest Randomizer",
     "license": "Apache License version 2.0",
     "archived": false,
@@ -17695,7 +17505,7 @@
       }
     }
   },
-  "stickmans-items": {
+  "stickmansitems": {
     "name": "Stickmans items",
     "license": "All Rights Reserved",
     "archived": false,
@@ -17721,7 +17531,7 @@
       }
     }
   },
-  "autobroadcaster": {
+  "autobroadcasterplus": {
     "name": "AutoBroadcaster+",
     "license": "All Rights Reserved",
     "archived": false,
@@ -17799,7 +17609,7 @@
       }
     }
   },
-  "sentry-for-citizens": {
+  "sentry": {
     "name": "Sentry for Citizens2",
     "license": "Public Domain",
     "archived": false,
@@ -17981,7 +17791,7 @@
       }
     }
   },
-  "minecraft-the-last-airbender": {
+  "thelastairbender": {
     "name": "Minecraft: The Last Airbender",
     "license": "Free with credit or approval.",
     "archived": false,
@@ -18111,7 +17921,7 @@
       }
     }
   },
-  "give-anything-listener": {
+  "giveanythinglistener": {
     "name": "Give Anything Listener",
     "license": "All Rights Reserved",
     "archived": false,
@@ -18163,7 +17973,7 @@
       }
     }
   },
-  "project-hungergames": {
+  "projecthungergames": {
     "name": "Project HungerGames",
     "license": "Skyolicense",
     "archived": false,
@@ -18267,7 +18077,7 @@
       }
     }
   },
-  "terrain-control": {
+  "terraincontrol": {
     "name": "Terrain Control",
     "license": "MIT License",
     "archived": false,
@@ -18397,7 +18207,7 @@
       }
     }
   },
-  "info-board": {
+  "infoboard": {
     "name": "Info-Board",
     "license": "Public Domain",
     "archived": false,
@@ -18475,7 +18285,7 @@
       }
     }
   },
-  "epicboss-gold-edition": {
+  "epicbossgoldedition": {
     "name": "EpicBoss Gold Edition",
     "license": "All Rights Reserved",
     "archived": false,
@@ -18657,7 +18467,7 @@
       }
     }
   },
-  "hub-essentials": {
+  "hubessentials": {
     "name": "Hub Essentials 2.0",
     "license": "GNU General Public License version 2 (GPLv2)",
     "archived": false,
@@ -18673,32 +18483,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/hub-essential",
         "downloads": 194839
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "traincarts": {
-    "name": "TrainCarts",
-    "license": "MIT License",
-    "archived": false,
-    "gitUrl": "",
-    "description": "Can link multiple Minecarts together to form trains and more",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/traincarts/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/traincarts",
-        "downloads": 194268
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -18865,7 +18649,7 @@
       }
     }
   },
-  "minigames-party": {
+  "minigamesparty": {
     "name": "Minigames Party",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -18995,7 +18779,7 @@
       }
     }
   },
-  "paidranks-rankup": {
+  "paidranks": {
     "name": "PaidRanks - Rankup",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -19047,7 +18831,7 @@
       }
     }
   },
-  "ban-management": {
+  "banmanager": {
     "name": "Ban Management",
     "license": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales",
     "archived": false,
@@ -19073,7 +18857,7 @@
       }
     }
   },
-  "announcer-plus": {
+  "announcerplus": {
     "name": "Announcer Plus",
     "license": "All Rights Reserved",
     "archived": false,
@@ -19177,7 +18961,7 @@
       }
     }
   },
-  "rate-of-xray": {
+  "rateofxray": {
     "name": "Rate of XRay",
     "license": "All Rights Reserved",
     "archived": false,
@@ -19359,37 +19143,11 @@
       }
     }
   },
-  "info-board-reborn": {
-    "name": "Info-Board Reborn",
-    "license": "All Rights Reserved",
-    "archived": false,
-    "gitUrl": "https://github.com/Ktar5/Info-Board/issues",
-    "description": "#1 Scoreboards plugin!",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/ib-reborn/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/ib-reborn",
-        "downloads": 174405
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "adminessentials": {
+  "adminessentials-synapz1": {
     "name": "AdminEssentials⁢.",
     "license": "All Rights Reserved",
     "archived": false,
-    "gitUrl": "",
+    "gitUrl": "https://github.com/Synapz1/AdminEssentials/",
     "description": "The official AdminEssentials plugin! AdminEssentials is the perfect command plugin that has all commands for admins needed to run a server.",
     "releasesPage": [
       {
@@ -19437,32 +19195,6 @@
       }
     }
   },
-  "choptree": {
-    "name": "ChopTree2",
-    "license": "All Rights Reserved",
-    "archived": false,
-    "gitUrl": "",
-    "description": "Tree felling is easy when they pop like cacti",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/choptree2/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/choptree2",
-        "downloads": 172133
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
   "amazingspawnplugin": {
     "name": "AmazingSpawnPlugin",
     "license": "All Rights Reserved",
@@ -19489,7 +19221,7 @@
       }
     }
   },
-  "monster-apocalypse": {
+  "monsterapocalypse": {
     "name": "Monster Apocalypse",
     "license": "All Rights Reserved",
     "archived": false,
@@ -19515,7 +19247,7 @@
       }
     }
   },
-  "simple-autosave": {
+  "simpleautosave": {
     "name": "Simple-AutoSave",
     "license": "GNU Lesser General Public License version 3 (LGPLv3)",
     "archived": false,
@@ -19541,7 +19273,7 @@
       }
     }
   },
-  "wireless-redstone": {
+  "wirelessredstone": {
     "name": "Wireless Redstone",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -19593,7 +19325,7 @@
       }
     }
   },
-  "absolute-welcome": {
+  "absolutewelcome": {
     "name": "Absolute Welcome",
     "license": "All Rights Reserved",
     "archived": false,
@@ -19645,7 +19377,7 @@
       }
     }
   },
-  "custom-server-messages": {
+  "csm": {
     "name": "Custom Server Messages",
     "license": "All Rights Reserved",
     "archived": false,
@@ -19853,7 +19585,7 @@
       }
     }
   },
-  "backpack": {
+  "backpack-almura_dockter": {
     "name": "Backpack",
     "license": "GNU General Public License version 2 (GPLv2)",
     "archived": false,
@@ -19905,7 +19637,7 @@
       }
     }
   },
-  "super-hub": {
+  "superhub": {
     "name": "Super Hub",
     "license": "All Rights Reserved",
     "archived": false,
@@ -19931,7 +19663,7 @@
       }
     }
   },
-  "more-player-models": {
+  "moreplayermodels": {
     "name": "More Player Models",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -19987,7 +19719,7 @@
       }
     }
   },
-  "block-disguise": {
+  "blockdisguise": {
     "name": "Block Disguise",
     "license": "All Rights Reserved",
     "archived": false,
@@ -20013,7 +19745,7 @@
       }
     }
   },
-  "my-worlds": {
+  "myworlds": {
     "name": "My Worlds",
     "license": "MIT License",
     "archived": false,
@@ -20065,7 +19797,7 @@
       }
     }
   },
-  "super-spleef": {
+  "superspleef": {
     "name": "Super Spleef",
     "license": "All Rights Reserved",
     "archived": false,
@@ -20299,7 +20031,7 @@
       }
     }
   },
-  "hunger-games": {
+  "hungergames": {
     "name": "Hunger Games",
     "license": "GNU Lesser General Public License version 3 (LGPLv3)",
     "archived": false,
@@ -20455,7 +20187,7 @@
       }
     }
   },
-  "builder-for-citizens": {
+  "builder-citizens": {
     "name": "Builder for Citizens2",
     "license": "Public Domain",
     "archived": false,
@@ -20611,7 +20343,7 @@
       }
     }
   },
-  "aaaaah-death": {
+  "aaaaahdeath": {
     "name": "Aaaaah!Death",
     "license": "Academic Free License v3.0",
     "archived": false,
@@ -20637,7 +20369,7 @@
       }
     }
   },
-  "simple-kitpvp": {
+  "simplekitpvp": {
     "name": "Simple KitPvP",
     "license": "All Rights Reserved",
     "archived": false,
@@ -20741,7 +20473,7 @@
       }
     }
   },
-  "advertise-blocker": {
+  "advertiseblocker": {
     "name": "Advertise Blocker",
     "license": "All Rights Reserved",
     "archived": false,
@@ -20767,7 +20499,7 @@
       }
     }
   },
-  "ultimate-survival-games": {
+  "ultimatesurvivalgames": {
     "name": "Ultimate Survival Games",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -20845,7 +20577,7 @@
       }
     }
   },
-  "hive-jumppads": {
+  "hivejumppads": {
     "name": "Hive JumpPads",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -20923,7 +20655,7 @@
       }
     }
   },
-  "nick-namer": {
+  "nicknamer-killjoy64": {
     "name": "Nick Namer",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21001,7 +20733,7 @@
       }
     }
   },
-  "ultimate-plugin-updater": {
+  "ultimatepluginupdater": {
     "name": "Ultimate Plugin Updater",
     "license": "Public Domain",
     "archived": false,
@@ -21053,7 +20785,7 @@
       }
     }
   },
-  "simplespawn-reborn": {
+  "simplespawn": {
     "name": "SimpleSpawn Reborn",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21105,7 +20837,7 @@
       }
     }
   },
-  "nightvision-reloaded": {
+  "nightvisionreloaded": {
     "name": "NightVision Reloaded",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -21209,7 +20941,7 @@
       }
     }
   },
-  "advanced-achievements": {
+  "advancedachievements": {
     "name": "Advanced Achievements",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -21235,7 +20967,7 @@
       }
     }
   },
-  "vipslot-reservation": {
+  "vipslotreservation": {
     "name": "VipSlot reservation",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21261,7 +20993,7 @@
       }
     }
   },
-  "super-logger": {
+  "superlogger": {
     "name": "Super Logger",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -21313,7 +21045,7 @@
       }
     }
   },
-  "survival-games-x": {
+  "survivalgamesx": {
     "name": "Survival Games X",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21339,7 +21071,7 @@
       }
     }
   },
-  "antibot-ultra": {
+  "antibotultra": {
     "name": "AntiBot-Ultra",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21391,7 +21123,7 @@
       }
     }
   },
-  "pvp-soup": {
+  "soup": {
     "name": "PvP Soup",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21521,7 +21253,7 @@
       }
     }
   },
-  "admin-powertools": {
+  "adminpowertools": {
     "name": "Admin-Powertools",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21547,7 +21279,7 @@
       }
     }
   },
-  "take-aim": {
+  "takeaim": {
     "name": "Take Aim",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21651,7 +21383,7 @@
       }
     }
   },
-  "minetopia-atm-plugin": {
+  "minetopiaatm": {
     "name": "Minetopia ATM plugin",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21729,11 +21461,11 @@
       }
     }
   },
-  "minecraft-market": {
+  "minecraftmarket": {
     "name": "Minecraft Market",
     "license": "All Rights Reserved",
     "archived": false,
-    "gitUrl": "https://www.minecraftmarket.com/knowledge/",
+    "gitUrl": "",
     "description": "Free donation alternative",
     "releasesPage": [
       {
@@ -21755,7 +21487,7 @@
       }
     }
   },
-  "simple-rename": {
+  "simplerename": {
     "name": "Simple Rename",
     "license": "GNU General Public License version 2 (GPLv2)",
     "archived": false,
@@ -21833,7 +21565,7 @@
       }
     }
   },
-  "item-lore-stats": {
+  "itemlorestats": {
     "name": "Item Lore Stats",
     "license": "All Rights Reserved",
     "archived": false,
@@ -21989,7 +21721,7 @@
       }
     }
   },
-  "empire-wand": {
+  "empirewand": {
     "name": "Empire Wand",
     "license": "Apache License version 2.0",
     "archived": false,
@@ -22457,32 +22189,6 @@
       }
     }
   },
-  "skillapi": {
-    "name": "SkillAPI",
-    "license": "MIT License",
-    "archived": false,
-    "gitUrl": "https://github.com/Eniripsa96/SkillAPI/issues",
-    "description": "A visual and dynamic skill tree API for the easy setup of unique class systems",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/skillapi/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/skillapi",
-        "downloads": 116515
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
   "ultrahardcore": {
     "name": "UltraHardcore",
     "license": "GNU General Public License version 3 (GPLv3)",
@@ -22769,33 +22475,7 @@
       }
     }
   },
-  "marriage-reloaded": {
-    "name": "Marriage Reloaded",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "",
-    "description": "Marriage Reloaded",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/marriage-reloaded/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/marriage-reloaded",
-        "downloads": 113321
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "pvp": {
+  "pvpplus": {
     "name": "PvP+",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -22847,7 +22527,7 @@
       }
     }
   },
-  "ghost-player": {
+  "ghostplayer": {
     "name": "Ghost Player",
     "license": "Skyolicense",
     "archived": false,
@@ -23003,7 +22683,7 @@
       }
     }
   },
-  "hawkeye-reloaded": {
+  "hawkreloaded": {
     "name": "HawkEye Reloaded",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -23133,7 +22813,7 @@
       }
     }
   },
-  "login-system": {
+  "loginsystem": {
     "name": "Login-System",
     "license": "All Rights Reserved",
     "archived": false,
@@ -23159,11 +22839,11 @@
       }
     }
   },
-  "head-drops": {
+  "headdrops-machine-maker": {
     "name": "Head-Drops",
     "license": "All Rights Reserved",
     "archived": false,
-    "gitUrl": "https://github.com/X1machinemaker1X/HeadDrops",
+    "gitUrl": "https://github.com/Machine-Maker/HeadDrops",
     "description": "Dropped Heads from all Mobs and Players!",
     "releasesPage": [
       {
@@ -23211,7 +22891,7 @@
       }
     }
   },
-  "sign-utilities": {
+  "signutilities": {
     "name": "Sign Utilities",
     "license": "All Rights Reserved",
     "archived": false,
@@ -23263,7 +22943,7 @@
       }
     }
   },
-  "cristichi-s-tree-capitator": {
+  "cristichi-treecapitator": {
     "name": "Cristichi's Tree Capitator",
     "license": "Public Domain",
     "archived": false,
@@ -23315,7 +22995,7 @@
       }
     }
   },
-  "hero-universe": {
+  "herouniverse": {
     "name": "Hero Universe",
     "license": "All Rights Reserved",
     "archived": false,
@@ -23341,7 +23021,7 @@
       }
     }
   },
-  "boss-bar-message": {
+  "bossbarmessage": {
     "name": "Boss Bar Message",
     "license": "MIT License",
     "archived": false,
@@ -23471,7 +23151,7 @@
       }
     }
   },
-  "the-hungergames": {
+  "thehungergames": {
     "name": "The HungerGames",
     "license": "All Rights Reserved",
     "archived": false,
@@ -23497,13 +23177,17 @@
       }
     }
   },
-  "heads": {
+  "heads-logout400": {
     "name": "Heads",
     "license": "All Rights Reserved",
     "archived": false,
     "gitUrl": "",
     "description": "Heads is plugin wich allows you to set steve skull to other player's head!",
     "releasesPage": [
+      {
+        "type": "spigot",
+        "url": "https://www.spigotmc.org/resources/heads-lite.4300/history/"
+      },
       {
         "type": "bukkit",
         "url": "https://dev.bukkit.org/projects/heads/files"
@@ -23515,8 +23199,8 @@
         "downloads": 106926
       },
       "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
+        "pageUrl": "https://www.spigotmc.org/resources/heads-lite.4300/",
+        "downloads": 6466
       },
       "papermc.io": {
         "pageUrl": ""
@@ -23549,7 +23233,7 @@
       }
     }
   },
-  "xray-informer": {
+  "xrayinformer": {
     "name": "XRay Informer",
     "license": "All Rights Reserved",
     "archived": false,
@@ -23835,7 +23519,7 @@
       }
     }
   },
-  "world-portal": {
+  "worldportal": {
     "name": "World Portal",
     "license": "All Rights Reserved",
     "archived": false,
@@ -23913,7 +23597,7 @@
       }
     }
   },
-  "giant-trees": {
+  "gianttrees": {
     "name": "Giant Trees",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -23939,7 +23623,7 @@
       }
     }
   },
-  "color-chat-text-colored-signs": {
+  "colorchat": {
     "name": "Color Chat/Text & Colored Signs",
     "license": "All Rights Reserved",
     "archived": false,
@@ -23981,32 +23665,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/supercensor",
         "downloads": 103610
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "mobhunting": {
-    "name": "MobHunting",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "https://github.com/Rocologo/MobHunting",
-    "description": "MobHunting provides a fun way to get money from hunting monsters",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/mobhunting/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/mobhunting",
-        "downloads": 103311
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -24069,10 +23727,10 @@
       }
     }
   },
-  "death-messages": {
+  "deathmessages-mayhem777": {
     "name": "Death Messages",
     "license": "All Rights Reserved",
-    "archived": false,
+    "archived": true,
     "gitUrl": "",
     "description": "Death Messages",
     "releasesPage": [
@@ -24225,7 +23883,7 @@
       }
     }
   },
-  "ip-check": {
+  "ipcheck": {
     "name": "IP-Check",
     "license": "Custom License",
     "archived": false,
@@ -24381,7 +24039,7 @@
       }
     }
   },
-  "warps": {
+  "warps-giingerniinja123": {
     "name": "Warps",
     "license": "All Rights Reserved",
     "archived": false,
@@ -24433,7 +24091,7 @@
       }
     }
   },
-  "help-pages": {
+  "helppages": {
     "name": "Help Pages",
     "license": "All Rights Reserved",
     "archived": false,
@@ -24449,32 +24107,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/help-pages",
         "downloads": 100094
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "infernal-mobs": {
-    "name": "Infernal Mobs",
-    "license": "Common Development and Distribution License (CDDL) ",
-    "archived": false,
-    "gitUrl": "",
-    "description": "Mobs will randomly become infernal and have awesome powers!",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/infernal-mobs/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/infernal-mobs",
-        "downloads": 99954
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -24511,7 +24143,7 @@
       }
     }
   },
-  "safe-login": {
+  "safelogin": {
     "name": "Safe Login",
     "license": "All Rights Reserved",
     "archived": false,
@@ -24537,7 +24169,7 @@
       }
     }
   },
-  "always-day": {
+  "alwaysday": {
     "name": "Always Day",
     "license": "MIT License",
     "archived": false,
@@ -24589,7 +24221,7 @@
       }
     }
   },
-  "project": {
+  "project44228": {
     "name": "Project 44228",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -24667,7 +24299,7 @@
       }
     }
   },
-  "simple-backup": {
+  "simplebackup": {
     "name": "Simple Backup",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -24693,7 +24325,7 @@
       }
     }
   },
-  "revamped-chest-protection": {
+  "revampedchestprotection": {
     "name": "Revamped Chest Protection",
     "license": "Public Domain",
     "archived": false,
@@ -24771,7 +24403,7 @@
       }
     }
   },
-  "arcane-enchants": {
+  "arcaneenchants": {
     "name": "Arcane Enchants",
     "license": "All Rights Reserved",
     "archived": false,
@@ -24797,7 +24429,7 @@
       }
     }
   },
-  "touchscreen-holograms": {
+  "touchscreenholograms": {
     "name": "Touchscreen Holograms",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -25369,32 +25001,6 @@
       }
     }
   },
-  "noteblockapi": {
-    "name": "NoteBlockAPI",
-    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
-    "archived": false,
-    "gitUrl": "",
-    "description": "An API for playing NoteBlockStudio-Files",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/noteblockapi/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/noteblockapi",
-        "downloads": 91557
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
   "chatmanagerplus-xenryjake": {
     "name": "ChatManager+",
     "license": "All Rights Reserved",
@@ -25447,7 +25053,7 @@
       }
     }
   },
-  "baby-mode-by-fundy": {
+  "babymode": {
     "name": "Baby mode (by Fundy)",
     "license": "All Rights Reserved",
     "archived": false,
@@ -25525,7 +25131,7 @@
       }
     }
   },
-  "cctv-camera": {
+  "cctvcamera": {
     "name": "CCTV Camera",
     "license": "MIT License",
     "archived": false,
@@ -25551,7 +25157,7 @@
       }
     }
   },
-  "advanced-item-effects": {
+  "advanceditemeffects": {
     "name": "Advanced Item Effects",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -25593,32 +25199,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/randomlocation",
         "downloads": 90641
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "armor-stand-edit": {
-    "name": "Armor Stand Edit",
-    "license": "GNU General Public License version 2 (GPLv2)",
-    "archived": false,
-    "gitUrl": "https://github.com/RypoFalem/ArmorStandEditor/wiki",
-    "description": "Use flint to edit armor stand attributes without commands",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/armor-stand-edit/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/armor-stand-edit",
-        "downloads": 90620
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -25707,7 +25287,7 @@
       }
     }
   },
-  "simple-voice-chat": {
+  "simplevoicechat": {
     "name": "Simple Voice Chat",
     "license": "All Rights Reserved",
     "archived": false,
@@ -25785,7 +25365,7 @@
       }
     }
   },
-  "one-in-the-chamber": {
+  "oneinthechamber": {
     "name": "One In The Chamber",
     "license": "All Rights Reserved",
     "archived": false,
@@ -25811,11 +25391,11 @@
       }
     }
   },
-  "anti-relog": {
+  "antirelog-r0306": {
     "name": "Anti-Relog",
     "license": "MIT License",
     "archived": false,
-    "gitUrl": "",
+    "gitUrl": "https://github.com/r0306/Anti-Relog",
     "description": "Prevent Players From Cheating While In Combat!",
     "releasesPage": [
       {
@@ -26019,7 +25599,7 @@
       }
     }
   },
-  "colors": {
+  "colors-tyzoid": {
     "name": "Colors",
     "license": "Tyzoid Public License (TPL)",
     "archived": false,
@@ -26253,11 +25833,11 @@
       }
     }
   },
-  "worldguard-custom-flags": {
+  "worldguard-customflags": {
     "name": "WorldGuard Custom Flags",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "git://github.com/mewin/WGCustomFlags.git",
+    "gitUrl": "https://github.com/mewin/WGCustomFlags",
     "description": "WorldGuard Custom Flags",
     "releasesPage": [
       {
@@ -26357,7 +25937,7 @@
       }
     }
   },
-  "island-world-challenges": {
+  "islandworldchallenges": {
     "name": "Island World Challenges",
     "license": "All Rights Reserved",
     "archived": false,
@@ -26487,7 +26067,7 @@
       }
     }
   },
-  "adminwatch-plugin": {
+  "adminwatch": {
     "name": "AdminWatch Plugin",
     "license": "All Rights Reserved",
     "archived": false,
@@ -26591,7 +26171,7 @@
       }
     }
   },
-  "serverlistmotd-x": {
+  "serverlistmotdx": {
     "name": "ServerlistMOTD X",
     "license": "Creative Commons Attribution-NonCommercial 3.0 Unported",
     "archived": false,
@@ -26825,7 +26405,7 @@
       }
     }
   },
-  "call-of-minecraft-zombies": {
+  "callofminecraftzombies": {
     "name": "Call of Minecraft: Zombies",
     "license": "All Rights Reserved",
     "archived": false,
@@ -26851,7 +26431,7 @@
       }
     }
   },
-  "chat-guard": {
+  "chatguard": {
     "name": "Chat Guard",
     "license": "All Rights Reserved",
     "archived": false,
@@ -26877,7 +26457,7 @@
       }
     }
   },
-  "super-build-battle": {
+  "superbuildbattle": {
     "name": "Super Build Battle",
     "license": "GNU General Public License version 2 (GPLv2)",
     "archived": false,
@@ -26903,7 +26483,7 @@
       }
     }
   },
-  "accountguard-ip-account-protection": {
+  "accountguard": {
     "name": "AccountGuard (IP Account Protection)",
     "license": "All Rights Reserved",
     "archived": false,
@@ -26981,7 +26561,7 @@
       }
     }
   },
-  "soul-shards": {
+  "soulshards": {
     "name": "Soul Shards",
     "license": "All Rights Reserved",
     "archived": false,
@@ -27111,7 +26691,7 @@
       }
     }
   },
-  "better-shops": {
+  "bettershops": {
     "name": "Better Shops",
     "license": "All Rights Reserved",
     "archived": false,
@@ -27137,7 +26717,7 @@
       }
     }
   },
-  "ttt-trouble-in-terrorist-town": {
+  "ttt": {
     "name": "TTT (Trouble In Terrorist Town)",
     "license": "MIT License",
     "archived": false,
@@ -27163,7 +26743,7 @@
       }
     }
   },
-  "solar-apocalypse": {
+  "solarapocalypse": {
     "name": "Solar Apocalypse",
     "license": "All Rights Reserved",
     "archived": false,
@@ -27501,11 +27081,11 @@
       }
     }
   },
-  "mobbounty-v-cb": {
+  "mobbounty": {
     "name": "MobBounty v4.2 [CB1337]",
     "license": "Public Domain",
     "archived": false,
-    "gitUrl": "git@github.com:IchigoKyger/MobBounty.git",
+    "gitUrl": "https://github.com/IchigoKyger/MobBounty",
     "description": "MobBounty v4.2 [CB1337]",
     "releasesPage": [
       {
@@ -27605,7 +27185,7 @@
       }
     }
   },
-  "hunger-games-generator": {
+  "hungergamesgenerator": {
     "name": "Hunger Games Generator",
     "license": "All Rights Reserved",
     "archived": false,
@@ -27657,7 +27237,7 @@
       }
     }
   },
-  "kit-essentials": {
+  "kitessentials": {
     "name": "Kit Essentials",
     "license": "All Rights Reserved",
     "archived": false,
@@ -27791,7 +27371,7 @@
     "name": "Denizen",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "https://wiki.citizensnpcs.co/Denizen",
+    "gitUrl": "",
     "description": "Scriptable, interactive citizens.",
     "releasesPage": [
       {
@@ -27817,7 +27397,7 @@
     "name": "BigBrother",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "http://bugs.nexisonline.net/bb",
+    "gitUrl": "",
     "description": "The oldest rollback system for Bukkit",
     "releasesPage": [
       {
@@ -27969,7 +27549,7 @@
       }
     }
   },
-  "the-walls-minigame": {
+  "thewalls": {
     "name": "The Walls Minigame",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -28021,7 +27601,7 @@
       }
     }
   },
-  "blood-particles": {
+  "bloodparticles": {
     "name": "Blood Particles",
     "license": "All Rights Reserved",
     "archived": false,
@@ -28099,7 +27679,7 @@
       }
     }
   },
-  "antitnt": {
+  "antitnt-mathieulegault": {
     "name": "AntiTNT",
     "license": "All Rights Reserved",
     "archived": false,
@@ -28177,7 +27757,7 @@
       }
     }
   },
-  "worldeditregions-worldedit-addon": {
+  "worldeditregions": {
     "name": "WorldeditRegions: WorldEdit addon.",
     "license": "All Rights Reserved",
     "archived": false,
@@ -28385,7 +27965,7 @@
       }
     }
   },
-  "casino-slots": {
+  "casinoslots": {
     "name": "Casino Slots",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -28493,7 +28073,7 @@
     "name": "QuickShop NotLikeMe",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "https://github.com/KaiKikuchi/QuickShop/issues",
+    "gitUrl": "https://github.com/KaiKikuchi/QuickShop",
     "description": "QuickShop NotLikeMe",
     "releasesPage": [
       {
@@ -28567,32 +28147,6 @@
       }
     }
   },
-  "anti-world-fly": {
-    "name": "Anti World Fly",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "https://github.com/PyvesB/AntiWorldFly",
-    "description": "Manage flying and related commands on a per world basis!",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/anti-world-fly/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/anti-world-fly",
-        "downloads": 70772
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
   "tabapi": {
     "name": "TabAPI",
     "license": "GNU General Public License version 3 (GPLv3)",
@@ -28645,7 +28199,7 @@
       }
     }
   },
-  "servershop-gui": {
+  "servershopgui": {
     "name": "ServerShop-gui",
     "license": "All Rights Reserved",
     "archived": false,
@@ -28749,7 +28303,7 @@
       }
     }
   },
-  "gamemode-inventories": {
+  "gamemodeinventories": {
     "name": "GameMode Inventories",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -28801,7 +28355,7 @@
       }
     }
   },
-  "simple-sit": {
+  "simplesit": {
     "name": "Simple Sit",
     "license": "All Rights Reserved",
     "archived": false,
@@ -29009,7 +28563,7 @@
       }
     }
   },
-  "ascii-bukkit-menu": {
+  "asciibukkitmenu": {
     "name": "Ascii Bukkit Menu",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -29061,7 +28615,7 @@
       }
     }
   },
-  "stone-drop": {
+  "stonedrop": {
     "name": "Stone Drop",
     "license": "MIT License",
     "archived": false,
@@ -29087,7 +28641,7 @@
       }
     }
   },
-  "chunk-loader": {
+  "chunkloader": {
     "name": "Chunk Loader",
     "license": "All Rights Reserved",
     "archived": false,
@@ -29139,7 +28693,7 @@
       }
     }
   },
-  "bssentials-updated-essentials": {
+  "bssentials": {
     "name": "Bssentials - Updated Essentials",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -29181,32 +28735,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/myages",
         "downloads": 68903
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "iconomy-reloaded": {
-    "name": "iConomy Reloaded",
-    "license": "GNU General Public License version 2 (GPLv2)",
-    "archived": false,
-    "gitUrl": "",
-    "description": "iConomy - Reloaded!",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/iconomy-reloadede/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/iconomy-reloadede",
-        "downloads": 68722
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -29347,7 +28875,7 @@
       }
     }
   },
-  "mario-kart": {
+  "mariokart": {
     "name": "Mario Kart",
     "license": "Public Domain",
     "archived": false,
@@ -29399,7 +28927,7 @@
       }
     }
   },
-  "advanced-bans": {
+  "advancedbans": {
     "name": "Advanced Bans",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -29659,7 +29187,7 @@
       }
     }
   },
-  "command-iconomy": {
+  "commandiconomy": {
     "name": "Command iConomy",
     "license": "Open Source with Credit Given",
     "archived": false,
@@ -29711,7 +29239,7 @@
       }
     }
   },
-  "faction-mobs": {
+  "factionmobs": {
     "name": "Faction Mobs",
     "license": "Custom License",
     "archived": false,
@@ -29763,7 +29291,7 @@
       }
     }
   },
-  "more-mobs": {
+  "moremobs": {
     "name": "More Mobs",
     "license": "All Rights Reserved",
     "archived": false,
@@ -29815,7 +29343,7 @@
       }
     }
   },
-  "fly": {
+  "fly-jorisk322": {
     "name": "Fly",
     "license": "All Rights Reserved",
     "archived": false,
@@ -29844,7 +29372,7 @@
   "marriage": {
     "name": "Marriage",
     "license": "All Rights Reserved",
-    "archived": false,
+    "archived": true,
     "gitUrl": "",
     "description": "Marriage",
     "releasesPage": [
@@ -29867,7 +29395,7 @@
       }
     }
   },
-  "mr-varo": {
+  "mrvaro": {
     "name": "Mr Varo",
     "license": "All Rights Reserved",
     "archived": false,
@@ -30101,7 +29629,7 @@
       }
     }
   },
-  "pvp-stats": {
+  "pvpstats": {
     "name": "PVP Stats",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -30153,7 +29681,7 @@
       }
     }
   },
-  "bukkit-jail": {
+  "bukkitjail": {
     "name": "Bukkit Jail",
     "license": "Skyolicense",
     "archived": false,
@@ -30209,7 +29737,7 @@
     "name": "BattleArena",
     "license": "Custom License",
     "archived": false,
-    "gitUrl": "https://docs.battleplugins.org",
+    "gitUrl": "",
     "description": "Modular arena and minigame system for Minecraft.",
     "releasesPage": [
       {
@@ -30725,7 +30253,7 @@
       }
     }
   },
-  "enchantment-tokens": {
+  "enchantmenttokens": {
     "name": "Enchantment Tokens",
     "license": "All Rights Reserved",
     "archived": false,
@@ -30933,7 +30461,7 @@
       }
     }
   },
-  "grand-theft-diamond-gta-in-minecraft": {
+  "grandtheftdiamond": {
     "name": "Grand Theft Diamond (GTA in Minecraft)",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -31011,7 +30539,7 @@
       }
     }
   },
-  "ore-to-client-obfuscation": {
+  "oretoclient": {
     "name": "Ore To Client Obfuscation",
     "license": "",
     "archived": false,
@@ -31167,7 +30695,7 @@
       }
     }
   },
-  "color-portals": {
+  "colorportals": {
     "name": "Color Portals",
     "license": "All Rights Reserved",
     "archived": false,
@@ -31219,7 +30747,7 @@
       }
     }
   },
-  "coloredtags": {
+  "coloredtags-firealarmfreak": {
     "name": "ColoredTags",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -31297,7 +30825,7 @@
       }
     }
   },
-  "simple-vote-listener": {
+  "simplevotelistener": {
     "name": "Simple Vote Listener",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -31375,7 +30903,7 @@
       }
     }
   },
-  "let-it-rain": {
+  "letitrain": {
     "name": "Let It Rain",
     "license": "All Rights Reserved",
     "archived": false,
@@ -31687,7 +31215,7 @@
       }
     }
   },
-  "bukkit-npc-s": {
+  "bukkitnpcs": {
     "name": "Bukkit NPC'S",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -31765,7 +31293,7 @@
       }
     }
   },
-  "pet-master": {
+  "petmaster": {
     "name": "Pet Master",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -31817,7 +31345,7 @@
       }
     }
   },
-  "extra-hard-mode": {
+  "extrahardmode": {
     "name": "Extra Hard Mode",
     "license": "GNU Affero General Public License version 3 (AGPLv3)",
     "archived": false,
@@ -31843,7 +31371,7 @@
       }
     }
   },
-  "player-count-message": {
+  "playercountmessage": {
     "name": "Player Count Message",
     "license": "All Rights Reserved",
     "archived": false,
@@ -32025,7 +31553,7 @@
       }
     }
   },
-  "mini-skyblock": {
+  "miniskyblock": {
     "name": "Mini-SkyBlock",
     "license": "All Rights Reserved",
     "archived": false,
@@ -32259,7 +31787,7 @@
       }
     }
   },
-  "tekkit-customizer": {
+  "tekkitcustomizer": {
     "name": "Tekkit Customizer",
     "license": "All Rights Reserved",
     "archived": false,
@@ -32285,7 +31813,7 @@
       }
     }
   },
-  "trouble-in-minecraft": {
+  "troubleinminecraft": {
     "name": "Trouble in Minecraft",
     "license": "All Rights Reserved",
     "archived": false,
@@ -32493,7 +32021,7 @@
       }
     }
   },
-  "battle-of-blocks": {
+  "battleofblocks": {
     "name": "Battle Of Blocks",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -32519,7 +32047,7 @@
       }
     }
   },
-  "antiaura-checkaura": {
+  "antiaura": {
     "name": "AntiAura (checkAura)",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -32675,7 +32203,7 @@
       }
     }
   },
-  "magical-spells": {
+  "magicalspells": {
     "name": "Magical Spells",
     "license": "All Rights Reserved",
     "archived": false,
@@ -32753,7 +32281,7 @@
       }
     }
   },
-  "the-ender-wand": {
+  "theenderwand": {
     "name": "The Ender Wand",
     "license": "All Rights Reserved",
     "archived": false,
@@ -32857,7 +32385,7 @@
       }
     }
   },
-  "advanced-antispam": {
+  "advancedantispam": {
     "name": "Advanced AntiSpam",
     "license": "All Rights Reserved",
     "archived": false,
@@ -32883,7 +32411,7 @@
       }
     }
   },
-  "dungeon-maze": {
+  "dungeonmaze": {
     "name": "Dungeon Maze",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -32909,7 +32437,7 @@
       }
     }
   },
-  "izone-basic": {
+  "izonebasic": {
     "name": "iZone Basic",
     "license": "All Rights Reserved",
     "archived": false,
@@ -32935,7 +32463,7 @@
       }
     }
   },
-  "super-bow-spleef": {
+  "superbowspleef": {
     "name": "Super Bow Spleef",
     "license": "All Rights Reserved",
     "archived": false,
@@ -32951,58 +32479,6 @@
       "bukkit.org": {
         "pageUrl": "https://dev.bukkit.org/projects/superbowspleef",
         "downloads": 53603
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "ultimate-economy": {
-    "name": "Ultimate_Economy",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "",
-    "description": "All what you need for economy on your server. Money/Shops/Jobs/Towns",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/ultimate_economy/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/ultimate_economy",
-        "downloads": 53599
-      },
-      "spigotmc.org": {
-        "pageUrl": "",
-        "downloads": 0
-      },
-      "papermc.io": {
-        "pageUrl": ""
-      }
-    }
-  },
-  "signcolors": {
-    "name": "SignColors",
-    "license": "GNU General Public License version 3 (GPLv3)",
-    "archived": false,
-    "gitUrl": "",
-    "description": "SignColors",
-    "releasesPage": [
-      {
-        "type": "bukkit",
-        "url": "https://dev.bukkit.org/projects/signcolors/files"
-      }
-    ],
-    "forum": {
-      "bukkit.org": {
-        "pageUrl": "https://dev.bukkit.org/projects/signcolors",
-        "downloads": 53588
       },
       "spigotmc.org": {
         "pageUrl": "",
@@ -33039,7 +32515,7 @@
       }
     }
   },
-  "gamemodechanger-rewrite": {
+  "gamemodechangerrewrite": {
     "name": "GamemodeChanger Rewrite",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -33065,7 +32541,7 @@
       }
     }
   },
-  "animated-tablist": {
+  "animatedtablist": {
     "name": "Animated-TabList",
     "license": "All Rights Reserved",
     "archived": false,
@@ -33533,7 +33009,7 @@
       }
     }
   },
-  "make-your-own-commands": {
+  "makeyourowncommands": {
     "name": "Make your own Commands",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -33585,7 +33061,7 @@
       }
     }
   },
-  "tree-feller": {
+  "treefeller": {
     "name": "Tree Feller",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -33637,7 +33113,7 @@
       }
     }
   },
-  "essential-server": {
+  "essentialserver": {
     "name": "Essential Server",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -33663,7 +33139,7 @@
       }
     }
   },
-  "ultrahardcore-reloaded": {
+  "uh": {
     "name": "UltraHardcore Reloaded",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
@@ -33949,7 +33425,7 @@
       }
     }
   },
-  "magic-wand": {
+  "magicwand": {
     "name": "Magic Wand",
     "license": "All Rights Reserved",
     "archived": false,
@@ -34105,7 +33581,7 @@
       }
     }
   },
-  "sign-ranks-plus": {
+  "signranksplus": {
     "name": "Sign Ranks Plus",
     "license": "Academic Free License v3.0",
     "archived": false,
@@ -34209,7 +33685,7 @@
       }
     }
   },
-  "admin-kits": {
+  "adminkits": {
     "name": "Admin Kits",
     "license": "Public Domain",
     "archived": false,
