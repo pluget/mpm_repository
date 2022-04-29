@@ -11,5 +11,5 @@ If you want to add/change a plugin in the repository, you can do it in two ways:
   2. Add the plugin to the repository file (/repository/data.json), and submit a pull request.
 
 ## License (SPDX)
-Data (json files): Open Data Commons Open Database License v1.0 ([ODbL-1.0](https://opendatacommons.org/licenses/odbl/1.0/))
-Scripts (python files): MIT License ([MIT](https://opensource.org/licenses/MIT))
+ * Data (json files): Open Data Commons Open Database License v1.0 ([ODbL-1.0](https://opendatacommons.org/licenses/odbl/1.0/))
+ * Scripts (python files): MIT License ([MIT](https://opensource.org/licenses/MIT))
