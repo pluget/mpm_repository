@@ -7,7 +7,7 @@ Due to a lot of spam, and abandoned projects, scraped data about the plugins fro
 ## Contributing
 If you want to add/change a plugin in the repository, you can do it in two ways:
 
-  1. Submit an issue, providing the plugin's name,] description, and link to the plugin's page on spigotmc.org / bukkit.org or plugin's repository on github.com / other git hosting service.
+  1. Submit an issue, providing the plugin's name, description, and link to the plugin's page on spigotmc.org / bukkit.org or plugin's repository on github.com / other git hosting service.
   2. Add the plugin to the repository file (/repository/data.json), and submit a pull request.
 
 ## License (SPDX)
