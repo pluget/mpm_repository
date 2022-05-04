@@ -25,7 +25,7 @@
         "downloads": 4487589
       },
       "papermc.io": {
-        "pageUrl": ""
+        "pageUrl": "https://papermc.io/forums/t/1-8-8-1-18-1-essentialsx-the-essential-plugin-suite-for-spigot-and-paper-servers/418"
       }
     }
   },
@@ -33,7 +33,7 @@
     "name": "Vault",
     "license": "GNU Lesser General Public License version 3 (LGPLv3)",
     "archived": false,
-    "gitUrl": "http://www.github.com/milkbowl/Vault",
+    "gitUrl": "https://github.com/milkbowl/Vault",
     "description": "Vault is a Permissions, Chat, & Economy API to give plugins easy hooks into these systems.",
     "releasesPage": [
       {
@@ -1553,7 +1553,7 @@
     "name": "[1.8 TO 1.18.1] Ultra Cosmetics [OPENSOURCE & FREE!!]",
     "license": "",
     "archived": false,
-    "gitUrl": "http://github.com/iSach/UltraCosmetics",
+    "gitUrl": "https://github.com/iSach/UltraCosmetics",
     "description": "#1 Cosmetics plugin! Treasure Chests, Gadgets, Hats, Pets, Morphs, Mounts, Effects and more!",
     "releasesPage": [
       {
@@ -3095,7 +3095,7 @@
     "name": "TrollCommands++ : Troll Your Frenemies!",
     "license": "MIT License",
     "archived": false,
-    "gitUrl": "https://github.com/egg82/TrollCommandsPlusPlus",
+    "gitUrl": "https://github.com/Laarryy/TrollCommandsPlusPlus",
     "description": "For the people that really hate their friends",
     "releasesPage": [
       {
@@ -3117,7 +3117,7 @@
         "downloads": 157499
       },
       "papermc.io": {
-        "pageUrl": ""
+        "pageUrl": "https://papermc.io/forums/t/1-8-1-13-1-trollcommands/110"
       }
     }
   },
@@ -3181,7 +3181,7 @@
     "name": "WorldEdit Command Crash Fix",
     "license": "",
     "archived": false,
-    "gitUrl": "http://www.mediafire.com/file/0nec73yerrb53n6/WorldEditCrashFix.rar",
+    "gitUrl": "https://www.mediafire.com/file/0nec73yerrb53n6/WorldEditCrashFix.rar",
     "description": "Fixed //calc combination crash",
     "releasesPage": [
       {
@@ -5093,7 +5093,7 @@
     "name": "ProjectKorra (Core)",
     "license": "",
     "archived": false,
-    "gitUrl": "http://github.com/ProjectKorra/ProjectKorra",
+    "gitUrl": "https://github.com/ProjectKorra/ProjectKorra",
     "description": "Minecraft Reimagined - Master the elements from Avatar: The Last Airbender and The Legend of Korra",
     "releasesPage": [
       {
@@ -10539,7 +10539,7 @@
     "name": "Npc Skin",
     "license": "",
     "archived": false,
-    "gitUrl": "http://sndev.it:7990/projects/SN/repos/npcskin/browse",
+    "gitUrl": "https://sndev.it:7990/projects/SN/repos/npcskin/browse",
     "description": "Change the skin of you Citizens NPC",
     "releasesPage": [
       {
@@ -13973,7 +13973,7 @@
     "name": "CommandBook",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "http://youtrack.sk89q.com/issues/COMMANDBOOK",
+    "gitUrl": "https://youtrack.sk89q.com/issues/COMMANDBOOK",
     "description": "General commands for your server. Teleporting, item spawning, mob spawning, banning, private messaging, and more!",
     "releasesPage": [
       {
@@ -15273,7 +15273,7 @@
     "name": "MagicSpells",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "http://nisovin.com/forums/index.php?forums/bug-reports.6/",
+    "gitUrl": "https://nisovin.com/forums/index.php?forums/bug-reports.6/",
     "description": "Add magic to your server!",
     "releasesPage": [
       {
@@ -15325,7 +15325,7 @@
     "name": "MaxBans",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "http://github.com/netherfoam/MaxBans/issues/",
+    "gitUrl": "https://github.com/netherfoam/MaxBans/issues/",
     "description": "The banning plugin that does everything.  Properly.",
     "releasesPage": [
       {
@@ -17067,7 +17067,7 @@
     "name": "Scavenger",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "http://www.cnaude.com/purpleirc/index.php",
+    "gitUrl": "",
     "description": "Scavenger",
     "releasesPage": [
       {
@@ -33710,5 +33710,1620 @@
         "pageUrl": ""
       }
     }
-  }
+  },
+  "Chunky Pregenerator": {
+    "name": "Chunky Pregenerator",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/pop4959/Chunky",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-2-1-18-1-chunky-pregenerator/4850"
+      }}},
+  "eZProtector": {
+    "name": "eZProtector",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/DoNotSpamPls/eZProtector/releases/latest",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-12-2-1-16-x-ezprotector/1361"
+      }}},
+  "Vane": {
+    "name": "Vane",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/oddlama/vane/releases/tag/",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-18-1-vane-immersive-and-lore-friendly-enhancements-for-vanilla-minecraft/7008"
+      }}},
+  "Ridables": {
+    "name": "Ridables",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/BillyGalbreath/Ridables/tree/v3.0",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-2-ridables-ride-and-control-any-mob-with-full-wasd-controls/102"
+      }}},
+  "Best View Distance": {
+    "name": "Best View Distance",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/kugge/BestViewDistance",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-x-best-view-distance/235"
+      }}},
+  "Chunkmaster": {
+    "name": "Chunkmaster",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Trivernis/spigot-chunkmaster",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-14-x-chunkmaster/1774"
+      }}},
+  "BlueMap": {
+    "name": "BlueMap",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/BlueMap-Minecraft/BlueMap/releases/tag/v1.7.2",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-2-1-17-bluemap-a-minecraft-map-in-3d/4939"
+      }}},
+  "BetterSleeping": {
+    "name": "BetterSleeping",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Nuytemans-Dieter/BetterSleeping",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-1-16-bettersleeping/3675"
+      }}},
+  "NoCreativePhantoms": {
+    "name": "NoCreativePhantoms",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/BillyGalbreath/NoCreativePhantoms",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-2-nocreativephantoms/83"
+      }}},
+  "2FA+": {
+    "name": "2FA+",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/egg82/2FAPlus",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-8-1-14-2-2fa-staff-authentication/1065"
+      }}},
+  "LiveKit": {
+    "name": "LiveKit",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-18-1-livekit-1-4-4b-live-map-app-for-ios-android/6967"
+      }}},
+  "Anti-VPN": {
+    "name": "Anti-VPN",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Laarryy/Anti-VPN",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-8-1-15-2-anti-vpn-get-the-best-save-money-on-overpriced-plugins-and-block-vpn-users/111"
+      }}},
+  "Bssentials": {
+    "name": "Bssentials",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Bssentials/Bssentials",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-1-16-4-bssentials/842"
+      }}},
+  "VoxelSniper": {
+    "name": "VoxelSniper",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/ervinchai/VoxelSniper",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-15-2-voxelsniper/2987"
+      }}},
+  "SkinsRestorer": {
+    "name": "SkinsRestorer",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/SkinsRestorer/SkinsRestorerX",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/skinsrestorer-ability-to-restore-change-skins-on-servers/1996"
+      }}},
+  "View Distance Tweaks": {
+    "name": "View Distance Tweaks",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/froobynooby/ViewDistanceTweaks",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-14-1-18-view-distance-tweaks/3432"
+      }}},
+  "SystemInfo": {
+    "name": "SystemInfo",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/TheViperShow/SystemInfo",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/systeminfo-hardware-monitor-plugin/3817"
+      }}},
+  "AdminTools3": {
+    "name": "AdminTools3",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/WeiiswurstDev/AdminTools3",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-8-1-16-5-admintools3-20-modules-in-a-gui-all-messages-configurable/2999"
+      }}},
+  "PaperConsoleHexPatch": {
+    "name": "PaperConsoleHexPatch",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Rosewood-Development/PaperConsoleHexPatch",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-paperconsolehexpatch/6355"
+      }}},
+  "Invincible World Chests": {
+    "name": "Invincible World Chests",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/nossr50/Invincible-World-Chests",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-x-invincible-world-chests/468"
+      }}},
+  "XItemsRemover": {
+    "name": "XItemsRemover",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Xezard/XItemsRemover/releases",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-1-16-xitemsremover-a-simple-plugin-that-automatically-removes-dropped-items-with-a-timer-displayed-on-them/5270"
+      }}},
+  "Dream-style Manhunt": {
+    "name": "Dream-style Manhunt",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/ericyoondotcom/MinecraftManhunt/releases",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/dream-style-manhunt/5072"
+      }}},
+  "Karma": {
+    "name": "Karma",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Klyser8/Karma",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-1-14-4-karma/1745"
+      }}},
+  "SimpleAddons": {
+    "name": "SimpleAddons",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/jamesafk/SimpleAddons ",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-14-1-16-x-simpleaddons/4474"
+      }}},
+  "FarmControl": {
+    "name": "FarmControl",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/froobynooby/FarmControl/",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-15-1-17-farmcontrol/5819"
+      }}},
+  "YetAnotherSignEditor": {
+    "name": "YetAnotherSignEditor",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/TehBrian/YetAnotherSignEditor/tree/v2.1.0",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-17-1-yetanothersigneditor-support-for-both-minimessage-and-legacy-color-codes/9179"
+      }}},
+  "LockLogin": {
+    "name": "LockLogin",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/KarmaConfigs/LockLoginReborn",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/gsa-locklogin/6167"
+      }}},
+  "HardcoreLife": {
+    "name": "HardcoreLife",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Chryscorelab/HardcoreLife",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-1-17-hardcorelife-minecraft-plugin-for-a-hardcore-survival-multiplayer-with-life-system/8953"
+      }}},
+  "ThrowableFireballs": {
+    "name": "ThrowableFireballs",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/FlailoftheLord/ThrowableFireballs/tree/master",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-throwablefireballs/1032"
+      }}},
+  "EventHandler": {
+    "name": "EventHandler",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/ShaneBeee/EventHandler",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-x-eventhandler/291"
+      }}},
+  "Manhunt": {
+    "name": "Manhunt",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-x-manhunt/4602"
+      }}},
+  "ChunkEditorAPI": {
+    "name": "ChunkEditorAPI",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-1-chunkeditorapi/4295"
+      }}},
+  "XGlow": {
+    "name": "XGlow",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Xezard/XGlow",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-xglow-simple-protocollib-based-api-to-create-glow-on-your-entities/5298"
+      }}},
+  "ChatLab": {
+    "name": "ChatLab",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Lably-Team/WoreChat",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/chatlab-1-8-chatformat-antitab-minimessage-support-chatmanager/7162"
+      }}},
+  "DupeBull": {
+    "name": "DupeBull",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-15-2-dupebull/3303"
+      }}},
+  "GravityControl": {
+    "name": "GravityControl",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/sulu5890/GravityControl",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-1-18-gravitycontrol-paper-sand-dupe-enabler-bring-back-our-dupes/9387"
+      }}},
+  "KaBoom": {
+    "name": "KaBoom",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://gitlab.com/TauCu/kaboom",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-1-18-kaboom-ballistic-explosion-debris-physics/7612"
+      }}},
+  "AdminTools - TrollAddition": {
+    "name": "AdminTools - TrollAddition",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/WeiiswurstDev/AdminTools-TrollAddition",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-1-15-2-admintools-trolladdition-troll-your-players-in-many-different-ways/3041"
+      }}},
+  "SafeChat": {
+    "name": "SafeChat",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-1-15-2-safechat/3570"
+      }}},
+  "Structure Boxes": {
+    "name": "Structure Boxes",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/eirikh1996/StructureBoxes",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-1-15-1-structure-boxes/2001"
+      }}},
+  "SkyChunksAndSkyIslands": {
+    "name": "SkyChunksAndSkyIslands",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/CaioFPeres/SkyChunksAndSkyIslands",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/plugin-for-removing-99-of-chunks/5702"
+      }}},
+  "BuildersUtilities": {
+    "name": "BuildersUtilities",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/TehBrian/BuildersUtilities/tree/v1.4.0",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-17-1-a-fork-of-buildersutilities/9424"
+      }}},
+  "Vanilla Bosses": {
+    "name": "Vanilla Bosses",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/ShrebTV/Vanilla-Bosses",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-17-1-18-1-vanilla-bosses/8742"
+      }}},
+  "AltFinder": {
+    "name": "AltFinder",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/egg82/AltFinder",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-8-1-14-2-altfinder-track-and-find-potential-alt-accounts-with-ease/274"
+      }}},
+  "SuperTotems": {
+    "name": "SuperTotems",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-5-supertotems-better-totems-of-undying/6906"
+      }}},
+  "SecureServerBackup": {
+    "name": "SecureServerBackup",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/KastenKlicker/SecureServerBackup",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/secureserverbackup/7535"
+      }}},
+  "Block4Block": {
+    "name": "Block4Block",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Block4Block/Block4Block",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-17-block4block/8160"
+      }}},
+  "ATHENA": {
+    "name": "ATHENA",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Errored-Innovations/ATHENA",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-17-athena-a-robust-user-friendly-and-detailed-in-game-event-debugger/8928"
+      }}},
+  "First Light": {
+    "name": "First Light",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://gitlab.com/NatoBoram/FirstLight",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-15-2-first-light/3657"
+      }}},
+  "Striking Entrance": {
+    "name": "Striking Entrance",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://gitlab.com/NatoBoram/StrikingEntrance",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-15-2-striking-entrance/3658"
+      }}},
+  "Insights": {
+    "name": "Insights",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/InsightsPlugin/Insights",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-18-insights/6912"
+      }}},
+  "HeadDropsSS": {
+    "name": "HeadDropsSS",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/MCSunnySide/HeadDropsSS",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-14-4-headdropsss-fix-skull-cause-client-lag-and-drop-skull-when-player-dies-with-lag-free/2053"
+      }}},
+  "CommandViewer": {
+    "name": "CommandViewer",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/PyBsh/CommandViewer/tree/1.2",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-1-16-commandviewer/5230"
+      }}},
+  "BetterNav plugin": {
+    "name": "BetterNav plugin",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/ThomasVerschoor/BetterNav",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/betternav-plugin-the-coordinate-system-reinvented-navigate-to-waypoints-or-even-players/6771"
+      }}},
+  "Superheroes": {
+    "name": "Superheroes",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Xemorr/superheroes",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-superheroes/6799"
+      }}},
+  "SharedEnderChest": {
+    "name": "SharedEnderChest",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://gitlab.com/Markaos/shared-ender-chest",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/sharedenderchest-1-16-5/7707"
+      }}},
+  "DamageIndicators": {
+    "name": "DamageIndicators",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-18-damageindicators-display-damage-dealt-to-entites/9514"
+      }}},
+  "Anti-Auto Fishing": {
+    "name": "Anti-Auto Fishing",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-1-18-anti-auto-fishing/8016"
+      }}},
+  "Modular AntiSpam": {
+    "name": "Modular AntiSpam",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/rasm945i/BendixAntiSpam",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-4-modular-antispam/5849"
+      }}},
+  "Spawn Arrows": {
+    "name": "Spawn Arrows",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/DrafaKiller/SpawnArrows/",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-5-spawn-arrows/7067"
+      }}},
+  "Highlight": {
+    "name": "Highlight",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Brightex/Highlight",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-1-15-highlight-item-research-triggered-by-a-command/2810"
+      }}},
+  "CratesEnhanced": {
+    "name": "CratesEnhanced",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/LinoxGH/CratesEnhanced",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-cratesenhanced-the-enhanced-solution-for-your-pay2win-servers/8820"
+      }}},
+  "LaunchMe": {
+    "name": "LaunchMe",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://gitlab.com/ASTRELION/launchme",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-launchme-ride-atop-of-projectiles-you-shoot-or-throw/6053"
+      }}},
+  "MultiLang": {
+    "name": "MultiLang",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Lorenzo0111/MultiLang",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/multilang-localize-your-server/8390"
+      }}},
+  "MultiverseHardcore": {
+    "name": "MultiverseHardcore",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/multiversehardcore-temporary-and-permanent-death-bans/7195"
+      }}},
+  "AppleSkinSpigot": {
+    "name": "AppleSkinSpigot",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/jmattingley23/AppleSkinSpigot",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-17-1-appleskinspigot-appleskin-for-paper-spigot-servers/9287"
+      }}},
+  "Bukkit Command Blocker": {
+    "name": "Bukkit Command Blocker",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://gitlab.com/TauCu/bukkit-command-blocker",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-1-18-bukkit-command-blocker/9586"
+      }}},
+  "OnDoorLock": {
+    "name": "OnDoorLock",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/micegan/OnDoorLockPlugin-minecraft/",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/ondoorlock-1-16-1-17/9631"
+      }}},
+  "SimpleAddonsLegacy": {
+    "name": "SimpleAddonsLegacy",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-1-13-simpleaddonslegacy/4809"
+      }}},
+  "JShader": {
+    "name": "JShader",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Lorenzo0111/JShader",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/jshader-add-javascript-engine-support-for-java11/7960"
+      }}},
+  "TicketManager": {
+    "name": "TicketManager",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/HoshiKurama/TicketManager",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/ticketmanager-advanced-ticket-creation-and-management-tool/7315"
+      }}},
+  "Weather Effect": {
+    "name": "Weather Effect",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/Aiamded/WeatherEffect",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-13-2-1-17-weather-effect-create-your-own-weather-works-with-custom-biome-and-datapacks/8940"
+      }}},
+  "Packet-Limiter": {
+    "name": "Packet-Limiter",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/knightzmc/packet-limiter/tree/1.2",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/paperlagfix-fixes-high-ping-bug-on-1-18-unofficial/9913"
+      }}},
+  "RocketPlaceholders": {
+    "name": "RocketPlaceholders",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://bit.ly/3cJ0Iyr ",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/rocketplaceholders-create-custom-placeholders/7165"
+      }}},
+  "monkeModMail": {
+    "name": "monkeModMail",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/monkegame/monkeModMail",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-17-monkemodmail-discord-attached-player-report-system/8501"
+      }}},
+  "RexSYS": {
+    "name": "RexSYS",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/rexjohannes/RexSYS-recode",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/free-rexsys-simple-spigotserver-system-recode/7089"
+      }}},
+  "Deathchest": {
+    "name": "Deathchest",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/blouflashdb/deathchestmc",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-18-deathchest/9829"
+      }}},
+  "RedditCraft": {
+    "name": "RedditCraft",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/omarathon/redditcraft",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-8-1-17-redditcraft-reddit-forum-with-minecraft-integrations/8636"
+      }}},
+  "MiniGameWorld": {
+    "name": "MiniGameWorld",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/MiniGameWorlds/MiniGameWorld",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/minigameworld-module-based-minigame-framework-1-14-1-18/9082"
+      }}},
+  "DaRules": {
+    "name": "DaRules",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/darules-force-players-to-read-your-rules/9134"
+      }}},
+  "Only One Inventory Slot": {
+    "name": "Only One Inventory Slot",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/micegan/Only-One-Inventory-Slot-minecraft-1.16.5",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/only-one-inventory-slot-1-16/9630"
+      }}},
+  "MCVerifier : Discord user verification plugin": {
+    "name": "MCVerifier : Discord user verification plugin",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/brunocu/MCVerifier",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-18-discord-user-verification-plugin/9781"
+      }}},
+  "Haste Boost": {
+    "name": "Haste Boost",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/sebastianrich18/Haste-Boost/tree/v1.0.0",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-18-1-haste-boost-insta-mine-deepslate/9859"
+      }}},
+  "InvEffects": {
+    "name": "InvEffects",
+    "license": "",
+    "archived": false,
+    "gitUrl": "https://github.com/aspwil/invEffect",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-16-5-inveffects-apply-potion-effects-while-a-player-has-an-item-in-their-inventory/9149"
+      }}},
+  "DiscordAuth": {
+    "name": "DiscordAuth",
+    "license": "",
+    "archived": false,
+    "gitUrl": "",
+    "description": "",
+    "releasesPage": [],
+    "forum": {
+      "bukkit.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "spigotmc.org": {
+        "pageUrl": "",
+        "downloads": 0
+      },
+      "papermc.io": {
+        "pageUrl": "https://papermc.io/forums/t/1-18-1-discordauth-discord-authentication-using-one-time-codes/9927"
+      }}}
 }
