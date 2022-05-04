@@ -17873,7 +17873,7 @@
     "name": "Herochat",
     "license": "A/NC/ND",
     "archived": false,
-    "gitUrl": "http://redmine.hc.to/projects/hc-chat",
+    "gitUrl": "",
     "description": "The best chat channel plugin in Minecraft!",
     "releasesPage": [
       {
@@ -21439,7 +21439,7 @@
     "name": "CitizenSkins",
     "license": "All Rights Reserved",
     "archived": false,
-    "gitUrl": "http://svn.cerberus-technologies.com/citizenskins",
+    "gitUrl": "https://svn.cerberus-technologies.com/citizenskins",
     "description": "CitizenSkins",
     "releasesPage": [
       {
@@ -23237,7 +23237,7 @@
     "name": "XRay Informer",
     "license": "All Rights Reserved",
     "archived": false,
-    "gitUrl": "http://bitbucket.org/wesley27/xrayinformer",
+    "gitUrl": "https://bitbucket.org/wesley27/xrayinformer",
     "description": "The #1 Anti-Xray Solution on BukkitDev! Now Compatible with CoreProtect!",
     "releasesPage": [
       {
@@ -24511,7 +24511,7 @@
     "name": "MCBans",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "http://github.com/MCBans/MCBans",
+    "gitUrl": "https://github.com/MCBans/MCBans",
     "description": "MCBans A Global Banning Plugin",
     "releasesPage": [
       {
@@ -24693,7 +24693,7 @@
     "name": "Referrals",
     "license": "All Rights Reserved",
     "archived": false,
-    "gitUrl": "http://lividiusgaming.com/forum/tickets/",
+    "gitUrl": "",
     "description": "Ever wanted to give players gifts for referring players? just install referrals, a easy and super-configurabel referral plugin.",
     "releasesPage": [
       {
@@ -25968,7 +25968,7 @@
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
     "gitUrl": "https://github.com/betterphp/InfinitePlots/issues",
-    "description": "http://dev.bukkit.org/server-mods/infiniteplots/",
+    "description": "",
     "releasesPage": [
       {
         "type": "bukkit",
@@ -26331,7 +26331,7 @@
     "name": "CommandBin",
     "license": "Creative Commons Attribution Non-Commercial Noderivs 3.0 Unported (CC BY NC-ND 3.0)",
     "archived": false,
-    "gitUrl": "http://github.com/CainFoool/CommandBin",
+    "gitUrl": "https://github.com/CainFoool/CommandBin",
     "description": "CommandBin",
     "releasesPage": [
       {
@@ -27891,7 +27891,7 @@
     "name": "vAuth",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "http://github.com/triggjo2/vAuth",
+    "gitUrl": "https://github.com/triggjo2/vAuth",
     "description": "Offline server Verification system",
     "releasesPage": [
       {
@@ -31115,7 +31115,7 @@
     "name": "Cinema",
     "license": "Public Domain",
     "archived": false,
-    "gitUrl": "http://sourceforge.net/p/cinemaforbukkit/code/",
+    "gitUrl": "https://sourceforge.net/p/cinemaforbukkit/code/",
     "description": "Make Animated Pixelarts and Scenes",
     "releasesPage": [
       {
@@ -33013,7 +33013,7 @@
     "name": "Make your own Commands",
     "license": "GNU General Public License version 3 (GPLv3)",
     "archived": false,
-    "gitUrl": "http://jeterlp.admincmd.com/bug/",
+    "gitUrl": "",
     "description": "Create your own Commands with this plugin! ",
     "releasesPage": [
       {
