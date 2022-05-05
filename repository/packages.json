@@ -33730,7 +33730,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-2-1-18-1-chunky-pregenerator/4850"
       }}},
-  "eZProtector": {
+  "ezprotector": {
     "name": "eZProtector",
     "license": "",
     "archived": false,
@@ -33749,7 +33749,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-12-2-1-16-x-ezprotector/1361"
       }}},
-  "Vane": {
+  "vane": {
     "name": "Vane",
     "license": "",
     "archived": false,
@@ -33768,7 +33768,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-18-1-vane-immersive-and-lore-friendly-enhancements-for-vanilla-minecraft/7008"
       }}},
-  "Ridables": {
+  "ridables": {
     "name": "Ridables",
     "license": "",
     "archived": false,
@@ -33787,7 +33787,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-2-ridables-ride-and-control-any-mob-with-full-wasd-controls/102"
       }}},
-  "Best View Distance": {
+  "bestviewdistance": {
     "name": "Best View Distance",
     "license": "",
     "archived": false,
@@ -33806,7 +33806,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-x-best-view-distance/235"
       }}},
-  "Chunkmaster": {
+  "chunkmaster": {
     "name": "Chunkmaster",
     "license": "",
     "archived": false,
@@ -33825,7 +33825,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-14-x-chunkmaster/1774"
       }}},
-  "BlueMap": {
+  "bluemap": {
     "name": "BlueMap",
     "license": "",
     "archived": false,
@@ -33844,7 +33844,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-2-1-17-bluemap-a-minecraft-map-in-3d/4939"
       }}},
-  "BetterSleeping": {
+  "bettersleeping": {
     "name": "BetterSleeping",
     "license": "",
     "archived": false,
@@ -33863,7 +33863,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-1-16-bettersleeping/3675"
       }}},
-  "NoCreativePhantoms": {
+  "nocreativephantoms": {
     "name": "NoCreativePhantoms",
     "license": "",
     "archived": false,
@@ -33882,7 +33882,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-2-nocreativephantoms/83"
       }}},
-  "2FA+": {
+  "2faplus": {
     "name": "2FA+",
     "license": "",
     "archived": false,
@@ -33901,7 +33901,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-8-1-14-2-2fa-staff-authentication/1065"
       }}},
-  "LiveKit": {
+  "livekit": {
     "name": "LiveKit",
     "license": "",
     "archived": false,
@@ -33920,7 +33920,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-18-1-livekit-1-4-4b-live-map-app-for-ios-android/6967"
       }}},
-  "Anti-VPN": {
+  "antivpn": {
     "name": "Anti-VPN",
     "license": "",
     "archived": false,
@@ -33939,7 +33939,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-8-1-15-2-anti-vpn-get-the-best-save-money-on-overpriced-plugins-and-block-vpn-users/111"
       }}},
-  "Bssentials": {
+  "bssentials": {
     "name": "Bssentials",
     "license": "",
     "archived": false,
@@ -33958,7 +33958,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-1-16-4-bssentials/842"
       }}},
-  "VoxelSniper": {
+  "voxelsniper": {
     "name": "VoxelSniper",
     "license": "",
     "archived": false,
@@ -33977,7 +33977,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-15-2-voxelsniper/2987"
       }}},
-  "SkinsRestorer": {
+  "skinsrestorer": {
     "name": "SkinsRestorer",
     "license": "",
     "archived": false,
@@ -33996,7 +33996,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/skinsrestorer-ability-to-restore-change-skins-on-servers/1996"
       }}},
-  "View Distance Tweaks": {
+  "viewdistancetweaks": {
     "name": "View Distance Tweaks",
     "license": "",
     "archived": false,
@@ -34015,7 +34015,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-14-1-18-view-distance-tweaks/3432"
       }}},
-  "SystemInfo": {
+  "systeminfo": {
     "name": "SystemInfo",
     "license": "",
     "archived": false,
@@ -34034,7 +34034,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/systeminfo-hardware-monitor-plugin/3817"
       }}},
-  "AdminTools3": {
+  "admintools3": {
     "name": "AdminTools3",
     "license": "",
     "archived": false,
@@ -34053,7 +34053,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-8-1-16-5-admintools3-20-modules-in-a-gui-all-messages-configurable/2999"
       }}},
-  "PaperConsoleHexPatch": {
+  "paperconsolehexpatch": {
     "name": "PaperConsoleHexPatch",
     "license": "",
     "archived": false,
@@ -34072,7 +34072,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-paperconsolehexpatch/6355"
       }}},
-  "Invincible World Chests": {
+  "invincibleworldchests": {
     "name": "Invincible World Chests",
     "license": "",
     "archived": false,
@@ -34091,7 +34091,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-x-invincible-world-chests/468"
       }}},
-  "XItemsRemover": {
+  "xitemsremover": {
     "name": "XItemsRemover",
     "license": "",
     "archived": false,
@@ -34110,7 +34110,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-1-16-xitemsremover-a-simple-plugin-that-automatically-removes-dropped-items-with-a-timer-displayed-on-them/5270"
       }}},
-  "Dream-style Manhunt": {
+  "dreamstyle-manhunt": {
     "name": "Dream-style Manhunt",
     "license": "",
     "archived": false,
@@ -34129,7 +34129,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/dream-style-manhunt/5072"
       }}},
-  "Karma": {
+  "karma": {
     "name": "Karma",
     "license": "",
     "archived": false,
@@ -34148,7 +34148,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-1-14-4-karma/1745"
       }}},
-  "SimpleAddons": {
+  "simpleaddons": {
     "name": "SimpleAddons",
     "license": "",
     "archived": false,
@@ -34167,7 +34167,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-14-1-16-x-simpleaddons/4474"
       }}},
-  "FarmControl": {
+  "farmcontrol": {
     "name": "FarmControl",
     "license": "",
     "archived": false,
@@ -34186,7 +34186,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-15-1-17-farmcontrol/5819"
       }}},
-  "YetAnotherSignEditor": {
+  "yetanothersigneditor": {
     "name": "YetAnotherSignEditor",
     "license": "",
     "archived": false,
@@ -34205,7 +34205,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-17-1-yetanothersigneditor-support-for-both-minimessage-and-legacy-color-codes/9179"
       }}},
-  "LockLogin": {
+  "locklogin": {
     "name": "LockLogin",
     "license": "",
     "archived": false,
@@ -34224,7 +34224,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/gsa-locklogin/6167"
       }}},
-  "HardcoreLife": {
+  "hardcorelife": {
     "name": "HardcoreLife",
     "license": "",
     "archived": false,
@@ -34243,7 +34243,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-1-17-hardcorelife-minecraft-plugin-for-a-hardcore-survival-multiplayer-with-life-system/8953"
       }}},
-  "ThrowableFireballs": {
+  "throwablefireballs": {
     "name": "ThrowableFireballs",
     "license": "",
     "archived": false,
@@ -34262,7 +34262,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-throwablefireballs/1032"
       }}},
-  "EventHandler": {
+  "eventhandler": {
     "name": "EventHandler",
     "license": "",
     "archived": false,
@@ -34281,7 +34281,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-x-eventhandler/291"
       }}},
-  "Manhunt": {
+  "manhunt": {
     "name": "Manhunt",
     "license": "",
     "archived": false,
@@ -34300,7 +34300,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-x-manhunt/4602"
       }}},
-  "ChunkEditorAPI": {
+  "chunkeditorapi": {
     "name": "ChunkEditorAPI",
     "license": "",
     "archived": false,
@@ -34319,7 +34319,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-1-chunkeditorapi/4295"
       }}},
-  "XGlow": {
+  "xglow": {
     "name": "XGlow",
     "license": "",
     "archived": false,
@@ -34338,7 +34338,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-xglow-simple-protocollib-based-api-to-create-glow-on-your-entities/5298"
       }}},
-  "ChatLab": {
+  "chatlab": {
     "name": "ChatLab",
     "license": "",
     "archived": false,
@@ -34357,7 +34357,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/chatlab-1-8-chatformat-antitab-minimessage-support-chatmanager/7162"
       }}},
-  "DupeBull": {
+  "dupebull": {
     "name": "DupeBull",
     "license": "",
     "archived": false,
@@ -34376,7 +34376,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-15-2-dupebull/3303"
       }}},
-  "GravityControl": {
+  "gravitycontrol": {
     "name": "GravityControl",
     "license": "",
     "archived": false,
@@ -34395,7 +34395,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-1-18-gravitycontrol-paper-sand-dupe-enabler-bring-back-our-dupes/9387"
       }}},
-  "KaBoom": {
+  "kaboom": {
     "name": "KaBoom",
     "license": "",
     "archived": false,
@@ -34414,7 +34414,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-1-18-kaboom-ballistic-explosion-debris-physics/7612"
       }}},
-  "AdminTools - TrollAddition": {
+  "admintools-trolladdition": {
     "name": "AdminTools - TrollAddition",
     "license": "",
     "archived": false,
@@ -34433,7 +34433,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-1-15-2-admintools-trolladdition-troll-your-players-in-many-different-ways/3041"
       }}},
-  "SafeChat": {
+  "safechat": {
     "name": "SafeChat",
     "license": "",
     "archived": false,
@@ -34452,7 +34452,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-1-15-2-safechat/3570"
       }}},
-  "Structure Boxes": {
+  "structureboxes": {
     "name": "Structure Boxes",
     "license": "",
     "archived": false,
@@ -34471,7 +34471,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-1-15-1-structure-boxes/2001"
       }}},
-  "SkyChunksAndSkyIslands": {
+  "skychunksandskyislands": {
     "name": "SkyChunksAndSkyIslands",
     "license": "",
     "archived": false,
@@ -34490,7 +34490,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/plugin-for-removing-99-of-chunks/5702"
       }}},
-  "BuildersUtilities": {
+  "buildersutilities": {
     "name": "BuildersUtilities",
     "license": "",
     "archived": false,
@@ -34509,7 +34509,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-17-1-a-fork-of-buildersutilities/9424"
       }}},
-  "Vanilla Bosses": {
+  "vanillabosses": {
     "name": "Vanilla Bosses",
     "license": "",
     "archived": false,
@@ -34528,7 +34528,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-17-1-18-1-vanilla-bosses/8742"
       }}},
-  "AltFinder": {
+  "altfinder": {
     "name": "AltFinder",
     "license": "",
     "archived": false,
@@ -34547,7 +34547,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-8-1-14-2-altfinder-track-and-find-potential-alt-accounts-with-ease/274"
       }}},
-  "SuperTotems": {
+  "supertotems": {
     "name": "SuperTotems",
     "license": "",
     "archived": false,
@@ -34566,7 +34566,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-5-supertotems-better-totems-of-undying/6906"
       }}},
-  "SecureServerBackup": {
+  "secureserverbackup": {
     "name": "SecureServerBackup",
     "license": "",
     "archived": false,
@@ -34585,7 +34585,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/secureserverbackup/7535"
       }}},
-  "Block4Block": {
+  "block4block": {
     "name": "Block4Block",
     "license": "",
     "archived": false,
@@ -34604,7 +34604,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-17-block4block/8160"
       }}},
-  "ATHENA": {
+  "athena": {
     "name": "ATHENA",
     "license": "",
     "archived": false,
@@ -34623,7 +34623,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-17-athena-a-robust-user-friendly-and-detailed-in-game-event-debugger/8928"
       }}},
-  "First Light": {
+  "firstlight": {
     "name": "First Light",
     "license": "",
     "archived": false,
@@ -34642,7 +34642,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-15-2-first-light/3657"
       }}},
-  "Striking Entrance": {
+  "strikingentrance": {
     "name": "Striking Entrance",
     "license": "",
     "archived": false,
@@ -34661,7 +34661,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-15-2-striking-entrance/3658"
       }}},
-  "Insights": {
+  "insights": {
     "name": "Insights",
     "license": "",
     "archived": false,
@@ -34680,7 +34680,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-18-insights/6912"
       }}},
-  "HeadDropsSS": {
+  "headdropsss": {
     "name": "HeadDropsSS",
     "license": "",
     "archived": false,
@@ -34699,7 +34699,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-14-4-headdropsss-fix-skull-cause-client-lag-and-drop-skull-when-player-dies-with-lag-free/2053"
       }}},
-  "CommandViewer": {
+  "commandviewer": {
     "name": "CommandViewer",
     "license": "",
     "archived": false,
@@ -34718,7 +34718,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-1-16-commandviewer/5230"
       }}},
-  "BetterNav plugin": {
+  "betternav": {
     "name": "BetterNav plugin",
     "license": "",
     "archived": false,
@@ -34737,7 +34737,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/betternav-plugin-the-coordinate-system-reinvented-navigate-to-waypoints-or-even-players/6771"
       }}},
-  "Superheroes": {
+  "superheroes": {
     "name": "Superheroes",
     "license": "",
     "archived": false,
@@ -34756,7 +34756,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-superheroes/6799"
       }}},
-  "SharedEnderChest": {
+  "sharedenderchest": {
     "name": "SharedEnderChest",
     "license": "",
     "archived": false,
@@ -34775,7 +34775,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/sharedenderchest-1-16-5/7707"
       }}},
-  "DamageIndicators": {
+  "damageindicators": {
     "name": "DamageIndicators",
     "license": "",
     "archived": false,
@@ -34794,7 +34794,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-18-damageindicators-display-damage-dealt-to-entites/9514"
       }}},
-  "Anti-Auto Fishing": {
+  "antiautofishing": {
     "name": "Anti-Auto Fishing",
     "license": "",
     "archived": false,
@@ -34813,7 +34813,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-1-18-anti-auto-fishing/8016"
       }}},
-  "Modular AntiSpam": {
+  "modularantispam": {
     "name": "Modular AntiSpam",
     "license": "",
     "archived": false,
@@ -34832,7 +34832,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-4-modular-antispam/5849"
       }}},
-  "Spawn Arrows": {
+  "spawnarrows": {
     "name": "Spawn Arrows",
     "license": "",
     "archived": false,
@@ -34851,7 +34851,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-5-spawn-arrows/7067"
       }}},
-  "Highlight": {
+  "highlight": {
     "name": "Highlight",
     "license": "",
     "archived": false,
@@ -34870,7 +34870,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-1-15-highlight-item-research-triggered-by-a-command/2810"
       }}},
-  "CratesEnhanced": {
+  "cratesenhanced": {
     "name": "CratesEnhanced",
     "license": "",
     "archived": false,
@@ -34889,7 +34889,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-cratesenhanced-the-enhanced-solution-for-your-pay2win-servers/8820"
       }}},
-  "LaunchMe": {
+  "launchme": {
     "name": "LaunchMe",
     "license": "",
     "archived": false,
@@ -34908,7 +34908,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-launchme-ride-atop-of-projectiles-you-shoot-or-throw/6053"
       }}},
-  "MultiLang": {
+  "multilang": {
     "name": "MultiLang",
     "license": "",
     "archived": false,
@@ -34927,7 +34927,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/multilang-localize-your-server/8390"
       }}},
-  "MultiverseHardcore": {
+  "multiversehardcore": {
     "name": "MultiverseHardcore",
     "license": "",
     "archived": false,
@@ -34946,7 +34946,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/multiversehardcore-temporary-and-permanent-death-bans/7195"
       }}},
-  "AppleSkinSpigot": {
+  "appleskinspigot": {
     "name": "AppleSkinSpigot",
     "license": "",
     "archived": false,
@@ -34965,7 +34965,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-17-1-appleskinspigot-appleskin-for-paper-spigot-servers/9287"
       }}},
-  "Bukkit Command Blocker": {
+  "bukkitcommandblocker": {
     "name": "Bukkit Command Blocker",
     "license": "",
     "archived": false,
@@ -34984,7 +34984,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-1-18-bukkit-command-blocker/9586"
       }}},
-  "OnDoorLock": {
+  "ondoorlock": {
     "name": "OnDoorLock",
     "license": "",
     "archived": false,
@@ -35003,7 +35003,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/ondoorlock-1-16-1-17/9631"
       }}},
-  "SimpleAddonsLegacy": {
+  "simpleaddonslegacy": {
     "name": "SimpleAddonsLegacy",
     "license": "",
     "archived": false,
@@ -35022,7 +35022,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-1-13-simpleaddonslegacy/4809"
       }}},
-  "JShader": {
+  "jshader": {
     "name": "JShader",
     "license": "",
     "archived": false,
@@ -35041,7 +35041,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/jshader-add-javascript-engine-support-for-java11/7960"
       }}},
-  "TicketManager": {
+  "ticketmanager": {
     "name": "TicketManager",
     "license": "",
     "archived": false,
@@ -35060,7 +35060,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/ticketmanager-advanced-ticket-creation-and-management-tool/7315"
       }}},
-  "Weather Effect": {
+  "weathereffect": {
     "name": "Weather Effect",
     "license": "",
     "archived": false,
@@ -35079,7 +35079,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-13-2-1-17-weather-effect-create-your-own-weather-works-with-custom-biome-and-datapacks/8940"
       }}},
-  "Packet-Limiter": {
+  "packetlimiter": {
     "name": "Packet-Limiter",
     "license": "",
     "archived": false,
@@ -35098,7 +35098,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/paperlagfix-fixes-high-ping-bug-on-1-18-unofficial/9913"
       }}},
-  "RocketPlaceholders": {
+  "rocketplaceholders": {
     "name": "RocketPlaceholders",
     "license": "",
     "archived": false,
@@ -35117,7 +35117,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/rocketplaceholders-create-custom-placeholders/7165"
       }}},
-  "monkeModMail": {
+  "monkemodmail": {
     "name": "monkeModMail",
     "license": "",
     "archived": false,
@@ -35136,7 +35136,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-17-monkemodmail-discord-attached-player-report-system/8501"
       }}},
-  "RexSYS": {
+  "rexsys": {
     "name": "RexSYS",
     "license": "",
     "archived": false,
@@ -35155,7 +35155,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/free-rexsys-simple-spigotserver-system-recode/7089"
       }}},
-  "Deathchest": {
+  "deathchest": {
     "name": "Deathchest",
     "license": "",
     "archived": false,
@@ -35174,7 +35174,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-18-deathchest/9829"
       }}},
-  "RedditCraft": {
+  "redditcraft": {
     "name": "RedditCraft",
     "license": "",
     "archived": false,
@@ -35193,7 +35193,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-8-1-17-redditcraft-reddit-forum-with-minecraft-integrations/8636"
       }}},
-  "MiniGameWorld": {
+  "minigameworld": {
     "name": "MiniGameWorld",
     "license": "",
     "archived": false,
@@ -35212,7 +35212,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/minigameworld-module-based-minigame-framework-1-14-1-18/9082"
       }}},
-  "DaRules": {
+  "darules": {
     "name": "DaRules",
     "license": "",
     "archived": false,
@@ -35231,7 +35231,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/darules-force-players-to-read-your-rules/9134"
       }}},
-  "Only One Inventory Slot": {
+  "onlyoneinventoryslot": {
     "name": "Only One Inventory Slot",
     "license": "",
     "archived": false,
@@ -35250,7 +35250,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/only-one-inventory-slot-1-16/9630"
       }}},
-  "MCVerifier : Discord user verification plugin": {
+  "mcverifier": {
     "name": "MCVerifier : Discord user verification plugin",
     "license": "",
     "archived": false,
@@ -35269,7 +35269,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-18-discord-user-verification-plugin/9781"
       }}},
-  "Haste Boost": {
+  "hasteboost": {
     "name": "Haste Boost",
     "license": "",
     "archived": false,
@@ -35288,7 +35288,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-18-1-haste-boost-insta-mine-deepslate/9859"
       }}},
-  "InvEffects": {
+  "inveffects": {
     "name": "InvEffects",
     "license": "",
     "archived": false,
@@ -35307,7 +35307,7 @@
       "papermc.io": {
         "pageUrl": "https://papermc.io/forums/t/1-16-5-inveffects-apply-potion-effects-while-a-player-has-an-item-in-their-inventory/9149"
       }}},
-  "DiscordAuth": {
+  "discordauth": {
     "name": "DiscordAuth",
     "license": "",
     "archived": false,
