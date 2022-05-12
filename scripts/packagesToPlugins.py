@@ -57,7 +57,7 @@ for i in dictF:
         print("\"about\": {")
         print("\"type\": \"github\",")
         print(f"\"sourceUrl\": \"{git_url}\",")
-        print(f"\"downloadUrl\": \"{download_url}\",")
+        print(f"\"downloadUrl\": \"{download_url}\"")
         print("},\n\"downloadIpfsHash\": \"\",\n\"supportedApis\": [\"spigot\", \"paper\", \"glowkit\"],\n\"gameVersions\": [],\n\"dependencies\": []\n},")
         if len(j["assets"]) > 1:
           logging.error(f"More than one asset: {tag_name}")
