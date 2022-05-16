@@ -78,7 +78,9 @@ async function fetchWithRetries(
     // load data from ../../repository/name.json
     const nameData = await fs.readFile("../../repository/name.json", "utf8");
     // parse json file to dictionary
-    let nameDict: { [key: string]: number } = JSON.parse(nameData);
+    let nameDict: {
+      [key: string]: { spigot?: number; bukkit?: number; github?: string };
+    } = JSON.parse(nameData);
 
     // Create names and assign ids to them
 
@@ -96,7 +98,7 @@ async function fetchWithRetries(
             break;
           }
         }
-        Object.assign(nameDict, { [newName]: id });
+        Object.assign(nameDict, { [newName]: { spigot: id } });
       }
     }
 
@@ -106,10 +108,10 @@ async function fetchWithRetries(
       const setOfIds = new Set();
       const filteredEntries = Object.entries(nameDict).filter(
         ([key, value]) => {
-          if (setOfIds.has(value)) {
+          if (setOfIds.has(value.spigot)) {
             return false;
           } else {
-            setOfIds.add(value);
+            setOfIds.add(value.spigot);
             return true;
           }
         }
