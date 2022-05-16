@@ -1,8 +1,6 @@
 // Import
 
 import fs from "fs-extra";
-import log4js from "log4js";
-const logger = log4js.getLogger();
 
 //fetchWithRetries function
 
@@ -18,7 +16,7 @@ async function fetchWithRetries(
 ): Promise<Response> {
   // split out the maxRetries option from the remaining
   // options (with a default of 3 retries)
-  logger.info(url, retryCount);
+  console.info(url, retryCount);
   const { maxRetries = 3, interval = 42, ...remainingOptions } = options;
   try {
     return await fetch(url, remainingOptions);
@@ -68,55 +66,57 @@ async function fetchWithRetries(
     }
     const fetched = await Promise.all(promises);
     for (let j = 0; j < 5; j++) {
-      responseArray.push(await fetched[j].json());
+      const fetchedJson = await fetched[j].json();
+      responseArray.push(fetchedJson);
     }
+    promises = [];
   }
 
-  // Read from file and parse
+  {
+    // Read from file and parse
 
-  // load data from ../../repository/name.json
-  const nameData = await fs.readFile("../../repository/name.json", "utf8");
-  // parse json file to dictionary
-  let nameDict: { [key: string]: number } = JSON.parse(nameData);
+    // load data from ../../repository/name.json
+    const nameData = await fs.readFile("../../repository/name.json", "utf8");
+    // parse json file to dictionary
+    let nameDict: { [key: string]: number } = JSON.parse(nameData);
 
-  //
+    // Create names and assign ids to them
 
-  for (const res of responseArray) {
-    // rename entries, and assign them to namesAndIds
-    const namesAndIds = nameDict;
-    res.forEach(({ name, id }: { name: string; id: number }) => {
-      let newName = name.split(" ").join("-").toLowerCase();
-      // if newName is in nameDict, add number at the end
-      if (newName in namesAndIds) {
-        for (let i = 0; i < 100; i++) {
-          newName = name.split(" ").join("-").toLowerCase() + "-" + i;
-          if (!(newName in namesAndIds)) {
+    for (const response of responseArray) {
+      for (const i of response) {
+        const [name, id] = [i.name, i.id];
+
+        let newName = name.split(" ").join("-").toLowerCase();
+        // if newName is in nameDict, add number at the end
+        for (let i = 1; i < 100; i++) {
+          if (i !== 1) {
+            newName = name.split(" ").join("-").toLowerCase() + "-" + i;
+          }
+          if (!(newName in nameDict)) {
             break;
           }
         }
+        Object.assign(nameDict, { [newName]: id });
       }
-      Object.assign(namesAndIds, { [newName]: id });
-    });
-    nameDict = namesAndIds;
-  }
-  // search for items with duplicated id and filter them
-  {
-    const setOfIds = new Set();
-    nameDict = Object.fromEntries(
-      Object.entries(nameDict).filter(([key, value]) => {
-        if (setOfIds.has(value)) {
-          return false;
-        } else {
-          setOfIds.add(value);
-          return true;
+    }
+
+    // Remove items with duplicated id
+
+    {
+      const setOfIds = new Set();
+      const filteredEntries = Object.entries(nameDict).filter(
+        ([key, value]) => {
+          if (setOfIds.has(value)) {
+            return false;
+          } else {
+            setOfIds.add(value);
+            return true;
+          }
         }
-      })
-    );
+      );
+      nameDict = Object.fromEntries(filteredEntries);
+    }
+
+    await fs.writeFile("../../repository/name.json", JSON.stringify(nameDict));
   }
-  const result = {};
-  Object.entries(nameDict).forEach(([key, value]) =>
-    Object.assign(result, { [key]: value })
-  );
-  console.log(result);
-  await fs.writeFile("../../repository/name.json", JSON.stringify(result));
 }
