@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
 import path from "path";
-import { HTTPResponse } from "puppeteer";
+import fs from "fs-extra";
 // Load environment variables from .env file
 dotenv.config();
 
@@ -17,7 +17,10 @@ puppeteer.use(StealthPlugin());
 const NFT_STORAGE_TOKEN = process.env.NFT_STORAGE_TOKEN || "";
 const client = new NFTStorage({ token: NFT_STORAGE_TOKEN });
 
-const browser = await puppeteer.launch({ headless: false });
+const browser = await puppeteer.launch({
+  headless: false,
+  executablePath: "/run/current-system/sw/bin/google-chrome-stable",
+});
 const page = (await browser.pages())[0];
 
 const downloadPath = path.resolve("./downloads");
@@ -34,8 +37,25 @@ const response = await page.goto(`https://spigotmc.org/${url}`);
 
 await page.waitForTimeout(5200);
 
-// const blob = await response.blob();
+async function checkIfFileIsDownloaded() {
+  try {
+    await new Promise((resolve, reject) => setTimeout(resolve, 500));
+    const files = await fs.readdir(downloadPath);
+    console.log(files);
+    if (path.extname(files[0]) === ".jar") {
+      const file = await fs.readFile(files[0]);
+      return file;
+    } else {
+      await checkIfFileIsDownloaded();
+    }
+  } catch {
+    await checkIfFileIsDownloaded();
+  }
+}
 
+const file = await checkIfFileIsDownloaded();
+
+console.log(file, typeof file);
 // const imageFile = new File([blob], `${id}.jar`, {
 //   type: "application/jar",
 // });
