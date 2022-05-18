@@ -20,25 +20,19 @@ const client = new NFTStorage({ token: NFT_STORAGE_TOKEN });
 const browser = await puppeteer.launch({ headless: false });
 const page = (await browser.pages())[0];
 
+const downloadPath = path.resolve("./downloads");
+const pageClient = await page.target().createCDPSession();
+await pageClient.send("Page.setDownloadBehavior", {
+  behavior: "allow",
+  downloadPath: downloadPath,
+});
+
 const id = 32761;
 const url = "resources/powernbt.9098/download?version=32761";
+
 const response = await page.goto(`https://spigotmc.org/${url}`);
+
 await page.waitForTimeout(5200);
-
-// const downloadPath = path.resolve("/home/mble/Downloads");
-// await page._client.send("Page.setDownloadBehavior", {
-//   behavior: "allow",
-//   downloadPath: downloadPath,
-// });
-
-const responses: HTTPResponse[] = [];
-page.on("response", (resp) => {
-  responses.push(resp);
-});
-
-page.on("load", () => {
-  responses.map(async (resp) => {});
-});
 
 // const blob = await response.blob();
 
