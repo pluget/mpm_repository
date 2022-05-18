@@ -5,7 +5,10 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.1",
-    "nft.storage": "^6.2.0"
+    "nft.storage": "^6.2.0",
+    "puppeteer": "^14.1.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
   },
   "scripts": {
     "test": "jest --verbose --runInBand",
