@@ -27,7 +27,7 @@ async function checkIfFileIsDownloaded(
   // Wait 500 ms
   await new Promise((resolve, reject) => setTimeout(resolve, 500));
 
-  if (iterations > 35) {
+  if (iterations > 4) {
     return { data: null, path: "" };
   }
 
@@ -88,24 +88,39 @@ const nameRepositoryDict = JSON.parse("" + nameRepository);
 const veridToCid: { [key: number]: string } = {};
 for (const i in nameRepositoryDict) {
   const id = nameRepositoryDict[i].spigot;
-  const res = await fetch(
-    `https://api.spiget.org/v2/resources/${id}/versions?size=9999`
-  );
-  const versions: { id: number; url?: string }[] = await res.json();
-  for (let i = 0; i < versions.length; i++) {
-    const version = versions[i];
-    const verid = version.id;
-    const url = version.url;
-    if (url !== undefined) {
-      console.log(url);
 
-      page.goto(`https://spigotmc.org/${url}`);
+  try {
+    const res = await fetch(
+      `https://api.spiget.org/v2/resources/${id}/versions?size=9999`
+    );
 
-      Object.assign(veridToCid, {
-        [verid]: await fileToCid(await checkIfFileIsDownloaded(downloadPath)),
-      });
-      await fs.writeFile("../../repository/verid.json", veridToCid);
+    const versions: { id: number; url?: string }[] = await res.json();
+    for (let i = 0; i < versions.length; i++) {
+      const version = versions[i];
+      const verid = version.id;
+      const url = version.url;
+      if (url !== undefined) {
+        console.log(url);
+
+        try {
+          await page.goto(`https://spigotmc.org/${url}`, {
+            waitUntil: "networkidle0",
+          });
+        } catch (e) {
+          console.log(e);
+        }
+
+        Object.assign(veridToCid, {
+          [verid]: await fileToCid(await checkIfFileIsDownloaded(downloadPath)),
+        });
+        await fs.writeFile(
+          "../../repository/verid.json",
+          JSON.stringify(veridToCid)
+        );
+      }
     }
+  } catch (e) {
+    console.log(e);
   }
 }
 await browser.close();
