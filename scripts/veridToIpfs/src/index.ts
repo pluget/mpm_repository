@@ -15,22 +15,10 @@ puppeteer.use(StealthPlugin());
 
 // Checks when file is downloaded, returns file data and path
 
-async function checkIfFileIsDownloaded(
-  downloadPath: string,
-  iterations?: number
-): Promise<{
+async function checkIfFileIsDownloaded(downloadPath: string): Promise<{
   data: Buffer | null;
   path: string;
 }> {
-  iterations = iterations || 0;
-
-  // Wait 500 ms
-  await new Promise((resolve, reject) => setTimeout(resolve, 500));
-
-  if (iterations > 4) {
-    return { data: null, path: "" };
-  }
-
   const files = await fs.readdir(downloadPath);
   const file = path.resolve(downloadPath, "" + files[0]);
 
@@ -40,7 +28,7 @@ async function checkIfFileIsDownloaded(
     const fileData = await fs.readFile(path.resolve(downloadPath, files[0]));
     return { data: fileData, path: file };
   } else {
-    return await checkIfFileIsDownloaded(downloadPath, iterations + 1);
+    return { data: null, path: "" };
   }
 }
 
@@ -48,17 +36,20 @@ async function checkIfFileIsDownloaded(
 const NFT_STORAGE_TOKEN = process.env.NFT_STORAGE_TOKEN || "";
 const client = new NFTStorage({ token: NFT_STORAGE_TOKEN });
 
-// Uploads file to IPFS, removes file, returns CID
+// Uploads file to IPFS, empties dir, returns CID
 
-async function fileToCid(file: {
-  data: Buffer | null;
-  path: string;
-}): Promise<string | null> {
+async function fileToCid(
+  file: {
+    data: Buffer | null;
+    path: string;
+  },
+  downloadPath: string
+): Promise<string | null> {
   if (file.data) {
     const blob = new Blob([file.data]);
     const cid = await client.storeBlob(blob);
 
-    fs.unlink(file.path);
+    fs.emptyDir(downloadPath);
 
     return cid;
   }
@@ -111,7 +102,10 @@ for (const i in nameRepositoryDict) {
         }
 
         Object.assign(veridToCid, {
-          [verid]: await fileToCid(await checkIfFileIsDownloaded(downloadPath)),
+          [verid]: await fileToCid(
+            await checkIfFileIsDownloaded(downloadPath),
+            downloadPath
+          ),
         });
         await fs.writeFile(
           "../../repository/verid.json",
