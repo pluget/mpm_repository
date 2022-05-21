@@ -56,23 +56,22 @@ async function fileToCid(
   }
   return null;
 }
-
 // Launch webbrowser
 const CHROME_PATH = process.env.CHROME_PATH || "";
-const browser = await puppeteer.launch({
-  headless: false,
-  executablePath: CHROME_PATH,
-});
+const browserArr = new Array();
 
 const downloadPathArr: string[] = new Array();
 
 const pageArr = new Array();
 
 for (let i = 0; i < 20; i++) {
-  if (i !== 0) {
-    await browser.newPage();
-  }
-  const page = (await browser.pages())[i];
+  const browser = await puppeteer.launch({
+    headless: false,
+    executablePath: CHROME_PATH,
+  });
+  browserArr.push(browser);
+
+  const page = (await browser.pages())[0];
   pageArr.push(page);
   const pageClient = await page.target().createCDPSession();
   const downloadPath = path.resolve(`./downloads${i}`);
@@ -138,4 +137,3 @@ for (const name in names) {
   pagePromises.push(loadPage());
   i++;
 }
-await browser.close();
