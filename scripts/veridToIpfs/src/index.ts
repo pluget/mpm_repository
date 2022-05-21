@@ -64,7 +64,7 @@ const downloadPathArr: string[] = new Array();
 
 const pageArr = new Array();
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 6; i++) {
   const browser = await puppeteer.launch({
     headless: false,
     executablePath: CHROME_PATH,
@@ -89,13 +89,19 @@ const veridCid: { [key: number]: string } = {};
 let pagePromises: Promise<void>[] = new Array();
 let i = 0;
 for (const name in names) {
-  if (i % 20 === 19) {
+  if (i % 6 === 5) {
     await Promise.all(pagePromises);
     pagePromises = new Array();
+    await new Promise((resolve, reject) => {
+      setTimeout(resolve, 1000);
+    });
+    for (const dir in downloadPathArr) {
+      fs.emptyDir(dir);
+    }
   }
   const id = names[name].spigot;
-  const downloadPath = downloadPathArr[i % 20];
-  const page = pageArr[i % 20];
+  const downloadPath = downloadPathArr[i % 6];
+  const page = pageArr[i % 6];
   async function loadPage() {
     try {
       const res = await fetch(
