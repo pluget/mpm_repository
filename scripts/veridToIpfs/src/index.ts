@@ -6,6 +6,7 @@ import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
 import path from "path";
 import fs from "fs-extra";
+import { Puppeteer } from "puppeteer";
 // Load environment variables from .env file
 dotenv.config();
 
@@ -62,59 +63,79 @@ const browser = await puppeteer.launch({
   headless: false,
   executablePath: CHROME_PATH,
 });
-// Use first tab
-const page = (await browser.pages())[0];
 
-const pageClient = await page.target().createCDPSession();
-const downloadPath = path.resolve("./downloads");
-await pageClient.send("Page.setDownloadBehavior", {
-  behavior: "allow",
-  downloadPath,
-});
+const downloadPathArr: string[] = new Array();
 
-const nameRepository = await fs.readFile(
-  path.resolve("../../repository/name.json")
-);
-const nameRepositoryDict = JSON.parse("" + nameRepository);
-const veridToCid: { [key: number]: string } = {};
-for (const i in nameRepositoryDict) {
-  const id = nameRepositoryDict[i].spigot;
+const pageArr = new Array();
 
-  try {
-    const res = await fetch(
-      `https://api.spiget.org/v2/resources/${id}/versions?size=9999`
-    );
-
-    const versions: { id: number; url?: string }[] = await res.json();
-    for (let i = 0; i < versions.length; i++) {
-      const version = versions[i];
-      const verid = version.id;
-      const url = version.url;
-      if (url !== undefined) {
-        console.log(url);
-
-        try {
-          await page.goto(`https://spigotmc.org/${url}`, {
-            waitUntil: "networkidle0",
-          });
-        } catch (e) {
-          console.log(e);
-        }
-
-        Object.assign(veridToCid, {
-          [verid]: await fileToCid(
-            await checkIfFileIsDownloaded(downloadPath),
-            downloadPath
-          ),
-        });
-        await fs.writeFile(
-          "../../repository/verid.json",
-          JSON.stringify(veridToCid)
-        );
-      }
-    }
-  } catch (e) {
-    console.log(e);
+for (let i = 0; i < 20; i++) {
+  if (i !== 0) {
+    await browser.newPage();
   }
+  const page = (await browser.pages())[i];
+  pageArr.push(page);
+  const pageClient = await page.target().createCDPSession();
+  const downloadPath = path.resolve(`./downloads${i}`);
+  await pageClient.send("Page.setDownloadBehavior", {
+    behavior: "allow",
+    downloadPath,
+  });
+  fs.ensureDir(downloadPath);
+  downloadPathArr.push(downloadPath);
+}
+
+const namesRaw = await fs.readFile(path.resolve("../../repository/name.json"));
+const names = JSON.parse("" + namesRaw);
+const veridCid: { [key: number]: string } = {};
+let pagePromises: Promise<void>[] = new Array();
+let i = 0;
+for (const name in names) {
+  if (i % 20 === 19) {
+    await Promise.all(pagePromises);
+    pagePromises = new Array();
+  }
+  const id = names[name].spigot;
+  const downloadPath = downloadPathArr[i % 20];
+  const page = pageArr[i % 20];
+  async function loadPage() {
+    try {
+      const res = await fetch(
+        `https://api.spiget.org/v2/resources/${id}/versions?size=9999`
+      );
+
+      const versions: { id: number; url?: string }[] = await res.json();
+      for (let i = 0; i < versions.length; i++) {
+        const version = versions[i];
+        const verid = version.id;
+        const url = version.url;
+        if (url !== undefined) {
+          console.log(url);
+
+          try {
+            await page.goto(`https://spigotmc.org/${url}`, {
+              waitUntil: "networkidle0",
+            });
+          } catch (e) {
+            console.log(e);
+          }
+
+          Object.assign(veridCid, {
+            [verid]: await fileToCid(
+              await checkIfFileIsDownloaded(downloadPath),
+              downloadPath
+            ),
+          });
+          await fs.writeFile(
+            "../../repository/verid.json",
+            JSON.stringify(veridCid)
+          );
+        }
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  }
+  pagePromises.push(loadPage());
+  i++;
 }
 await browser.close();
