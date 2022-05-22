@@ -20,6 +20,9 @@ async function checkIfFileIsDownloaded(downloadPath: string): Promise<{
   data: Buffer | null;
   path: string;
 }> {
+  await new Promise((resolve, reject) => {
+    setTimeout(resolve, 2000);
+  });
   const files = await fs.readdir(downloadPath);
   const file = path.resolve(downloadPath, "" + files[0]);
 
@@ -29,6 +32,7 @@ async function checkIfFileIsDownloaded(downloadPath: string): Promise<{
     const fileData = await fs.readFile(path.resolve(downloadPath, files[0]));
     return { data: fileData, path: file };
   } else {
+    fs.emptyDir(downloadPath);
     return { data: null, path: "" };
   }
 }
@@ -47,12 +51,17 @@ async function fileToCid(
   downloadPath: string
 ): Promise<string | null> {
   if (file.data) {
-    const blob = new Blob([file.data]);
-    const cid = await client.storeBlob(blob);
+    try {
+      const blob = new Blob([file.data]);
+      const cid = await client.storeBlob(blob);
 
-    fs.emptyDir(downloadPath);
+      fs.emptyDir(downloadPath);
 
-    return cid;
+      return cid;
+    } catch (error) {
+      console.log(error);
+      return null;
+    }
   }
   return null;
 }
@@ -68,6 +77,9 @@ for (let i = 0; i < 6; i++) {
   const browser = await puppeteer.launch({
     headless: false,
     executablePath: CHROME_PATH,
+    // args: [
+    // "--disable-extensions-except=/home/mble/Donwloads/uBlock/manifest.json",
+    // ],
   });
   browserArr.push(browser);
 
@@ -89,57 +101,66 @@ const veridCid: { [key: number]: string } = {};
 let pagePromises: Promise<void>[] = new Array();
 let i = 0;
 for (const name in names) {
-  if (i % 6 === 5) {
-    await Promise.all(pagePromises);
-    pagePromises = new Array();
-    await new Promise((resolve, reject) => {
-      setTimeout(resolve, 1000);
-    });
-    for (const dir in downloadPathArr) {
-      fs.emptyDir(dir);
-    }
-  }
   const id = names[name].spigot;
-  const downloadPath = downloadPathArr[i % 6];
-  const page = pageArr[i % 6];
-  async function loadPage() {
-    try {
-      const res = await fetch(
-        `https://api.spiget.org/v2/resources/${id}/versions?size=9999`
-      );
+  try {
+    const res = await fetch(
+      `https://api.spiget.org/v2/resources/${id}/versions?size=9999`
+    );
+    const versions: { id: number; url?: string }[] = await res.json();
+    for (let j = 0; j < versions.length; j++) {
+      if (i % 6 === 5) {
+        await Promise.all(pagePromises);
+        pagePromises = new Array();
+      }
 
-      const versions: { id: number; url?: string }[] = await res.json();
-      for (let i = 0; i < versions.length; i++) {
-        const version = versions[i];
+      const downloadPath = downloadPathArr[i % 6];
+      const page = pageArr[i % 6];
+      async function loadPage() {
+        const version = versions[j];
         const verid = version.id;
         const url = version.url;
         if (url !== undefined) {
           console.log(url);
 
           try {
-            await page.goto(`https://spigotmc.org/${url}`, {
-              waitUntil: "networkidle0",
+            const waitForPagePromise = new Promise<void>((resolve, reject) => {
+              // await page.goto(url, { waitUntil: "networkidle0" }); timeout after 30 sek
+              async function waitForPage() {
+                try {
+                  await page.goto(`https://spigotmc.org/${url}`, {
+                    waitUntil: "networkidle0",
+                  });
+                } catch (e) {
+                  console.log(e);
+                }
+                resolve();
+              }
+              waitForPage();
+              setTimeout(() => {
+                reject();
+              }, 30000);
             });
+            await waitForPagePromise;
           } catch (e) {
             console.log(e);
           }
 
-          Object.assign(veridCid, {
-            [verid]: await fileToCid(
-              await checkIfFileIsDownloaded(downloadPath),
-              downloadPath
-            ),
-          });
-          await fs.writeFile(
-            "../../repository/verid.json",
-            JSON.stringify(veridCid)
+          const cid = await fileToCid(
+            await checkIfFileIsDownloaded(downloadPath),
+            downloadPath
           );
+          console.log(cid);
+
+          Object.assign(veridCid, {
+            [verid]: cid,
+          });
         }
       }
-    } catch (e) {
-      console.log(e);
+      pagePromises.push(loadPage());
+      i++;
     }
+    await fs.writeJson("../../repository/verid.json", veridCid);
+  } catch (e: any) {
+    console.log(e);
   }
-  pagePromises.push(loadPage());
-  i++;
 }
