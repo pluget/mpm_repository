@@ -102,6 +102,7 @@ let pagePromises: Promise<void>[] = new Array();
 let i = 0;
 for (const name in names) {
   const id = names[name].spigot;
+  console.log(id)
   try {
     const res = await fetch(
       `https://api.spiget.org/v2/resources/${id}/versions?size=9999`
