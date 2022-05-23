@@ -26,8 +26,8 @@ async function checkIfFileIsDownloaded(downloadPath: string): Promise<{
   const files = await fs.readdir(downloadPath);
   const file = path.resolve(downloadPath, "" + files[0]);
 
-  // Check if jar file is downloaded
-  if (path.extname(file) === ".jar") {
+  // Check if jar or sk or zip file is downloaded
+  if (path.extname(file) === ".jar" || path.extname(file) === ".sk" || path.extname(file) === ".zip") {
     // Return buffer with file content
     const fileData = await fs.readFile(path.resolve(downloadPath, files[0]));
     return { data: fileData, path: file };
@@ -97,7 +97,7 @@ for (let i = 0; i < 6; i++) {
 
 const namesRaw = await fs.readFile(path.resolve("../../repository/name.json"));
 const names = JSON.parse("" + namesRaw);
-const veridCid: { [key: number]: string } = {};
+const veridCid: { [key: number]: string } = await fs.readJson("../../repository/verid.json")
 let pagePromises: Promise<void>[] = new Array();
 let i = 0;
 for (const name in names) {
@@ -108,56 +108,61 @@ for (const name in names) {
     );
     const versions: { id: number; url?: string }[] = await res.json();
     for (let j = 0; j < versions.length; j++) {
-      if (i % 6 === 5) {
-        await Promise.all(pagePromises);
-        pagePromises = new Array();
-      }
-
-      const downloadPath = downloadPathArr[i % 6];
-      const page = pageArr[i % 6];
-      async function loadPage() {
-        const version = versions[j];
-        const verid = version.id;
-        const url = version.url;
-        if (url !== undefined) {
-          console.log(url);
-
-          try {
-            const waitForPagePromise = new Promise<void>((resolve, reject) => {
-              // await page.goto(url, { waitUntil: "networkidle0" }); timeout after 30 sek
-              async function waitForPage() {
-                try {
-                  await page.goto(`https://spigotmc.org/${url}`, {
-                    waitUntil: "networkidle0",
-                  });
-                } catch (e) {
-                  console.log(e);
-                }
-                resolve();
-              }
-              waitForPage();
-              setTimeout(() => {
-                reject();
-              }, 30000);
-            });
-            await waitForPagePromise;
-          } catch (e) {
-            console.log(e);
-          }
-
-          const cid = await fileToCid(
-            await checkIfFileIsDownloaded(downloadPath),
-            downloadPath
-          );
-          console.log(cid);
-
-          Object.assign(veridCid, {
-            [verid]: cid,
-          });
+      if (veridCid[versions[j].id] === undefined) {
+        if (i % 6 === 5) {
+          await Promise.all(pagePromises);
+          pagePromises = new Array();
         }
+
+        const downloadPath = downloadPathArr[i % 6];
+        const page = pageArr[i % 6];
+
+        async function loadPage() {
+          const version = versions[j];
+          const verid = version.id;
+          const url = version.url;
+          if (url !== undefined) {
+            console.log(url);
+
+            try {
+              const waitForPagePromise = new Promise<void>((resolve, reject) => {
+                // await page.goto(url, { waitUntil: "networkidle0" }); timeout after 30 sek
+                async function waitForPage() {
+                  try {
+                    await page.goto(`https://spigotmc.org/${url}`, {
+                      waitUntil: "networkidle0",
+                    });
+                  } catch (e) {
+                    console.log(e);
+                  }
+                  resolve();
+                }
+
+                waitForPage();
+                setTimeout(() => {
+                  reject();
+                }, 30000);
+              });
+              await waitForPagePromise;
+            } catch (e) {
+              console.log(e);
+            }
+
+            const cid = await fileToCid(
+              await checkIfFileIsDownloaded(downloadPath),
+              downloadPath
+            );
+            console.log(cid);
+
+            Object.assign(veridCid, {
+              [verid]: cid,
+            });
+          }
+        }
+
+        pagePromises.push(loadPage());
+        i++;
       }
-      pagePromises.push(loadPage());
-      i++;
     }
     await fs.writeJson("../../repository/verid.json", veridCid);
   } catch (e: any) {
