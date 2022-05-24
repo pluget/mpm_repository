@@ -108,14 +108,17 @@ let pagePromises: Promise<void>[] = new Array();
 let i = 0;
 for (const name in names) {
   const id = names[name].spigot;
-  console.log(id)
+  console.log(id);
   try {
     const res = await fetch(
       `https://api.spiget.org/v2/resources/${id}/versions?size=9999`
     );
     const versions: { id: number; url?: string }[] = await res.json();
     for (let j = 0; j < versions.length; j++) {
-      if (veridCid[versions[j].id] === undefined) {
+      const verid = versions[j].id;
+      console.log("verid: ", verid);
+      if (veridCid[verid] === undefined) {
+        console.log("passed");
         if (i % 6 === 5) {
           await Promise.all(pagePromises);
           pagePromises = new Array();
@@ -126,7 +129,6 @@ for (const name in names) {
 
         async function loadPage() {
           const version = versions[j];
-          const verid = versions[j].id;
           const url = version.url;
           if (url !== undefined) {
             console.log(url);
