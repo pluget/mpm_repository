@@ -129,46 +129,44 @@ for (const name in names) {
 
         async function loadPage() {
           const version = versions[j];
-          const url = version.url;
-          if (url !== undefined) {
-            console.log(url);
+          const url =
+            version.url || `resources/${id}/download?version=${verid}`;
 
-            try {
-              const waitForPagePromise = new Promise<void>(
-                (resolve, reject) => {
-                  // await page.goto(url, { waitUntil: "networkidle0" }); timeout after 30 sek
-                  async function waitForPage() {
-                    try {
-                      await page.goto(`https://spigotmc.org/${url}`, {
-                        waitUntil: "networkidle0",
-                      });
-                    } catch (e) {
-                      console.log(e);
-                    }
-                    resolve();
-                  }
+          console.log(url);
 
-                  waitForPage();
-                  setTimeout(() => {
-                    reject();
-                  }, 30000);
+          try {
+            const waitForPagePromise = new Promise<void>((resolve, reject) => {
+              // await page.goto(url, { waitUntil: "networkidle0" }); timeout after 30 sek
+              async function waitForPage() {
+                try {
+                  await page.goto(`https://spigotmc.org/${url}`, {
+                    waitUntil: "networkidle0",
+                  });
+                } catch (e) {
+                  console.log(e);
                 }
-              );
-              await waitForPagePromise;
-            } catch (e) {
-              console.log(e);
-            }
+                resolve();
+              }
 
-            const cid = await fileToCid(
-              await checkIfFileIsDownloaded(downloadPath),
-              downloadPath
-            );
-            console.log(cid);
-
-            Object.assign(veridCid, {
-              [verid]: cid,
+              waitForPage();
+              setTimeout(() => {
+                reject();
+              }, 30000);
             });
+            await waitForPagePromise;
+          } catch (e) {
+            console.log(e);
           }
+
+          const cid = await fileToCid(
+            await checkIfFileIsDownloaded(downloadPath),
+            downloadPath
+          );
+          console.log(cid);
+
+          Object.assign(veridCid, {
+            [verid]: cid,
+          });
         }
 
         pagePromises.push(loadPage());
